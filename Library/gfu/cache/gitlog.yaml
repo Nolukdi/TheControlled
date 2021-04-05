@@ -13,9 +13,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-04-05T18:01:17.080-04:00
+  lastUpdatedAtString: 2021-04-05T18:01:35.218-04:00
   initializedAtString: 2021-04-05T17:59:45.323-04:00
   log:
+  - commitID: 92d62425118ae9d359b5725a262cefcd3c01cca4
+    mergeA: 
+    mergeB: 
+    authorName: Alex Di Filippo
+    authorEmail: ald1289@rit.edu
+    commitEmail: ald1289@rit.edu
+    commitName: Alex Di Filippo
+    summary: Unity Commit #6
+    description: 6th Unity Commit
+    timeString: 2021-04-05T18:01:33.000-04:00
+    commitTimeString: 2021-04-05T18:01:33.000-04:00
+    changes:
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 08db2c3a57ee416a43b63217b4cccb1756918255
     mergeA: 
     mergeB: 
