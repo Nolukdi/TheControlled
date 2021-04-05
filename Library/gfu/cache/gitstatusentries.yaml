@@ -13,30 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-05T17:58:59.918-04:00
+  lastUpdatedAtString: 2021-04-05T18:01:17.383-04:00
   initializedAtString: 2021-04-05T17:58:59.918-04:00
   entries:
-  - path: Library\ArtifactDB
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\ArtifactDB
-    projectPath: Library\ArtifactDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\gfu\cache\branches.yaml
@@ -57,32 +36,18 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\SceneVisibilityState.asset
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -100,34 +65,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp\UnityLockfile
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Temp\UnityLockfile
@@ -135,178 +72,17 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-ae2f3c61ac2066d408f471708de19cbb
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Temp\UnityTempFile-ae2f3c61ac2066d408f471708de19cbb
+    projectPath: Temp\UnityTempFile-ae2f3c61ac2066d408f471708de19cbb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\workerlic
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Temp\workerlic
     projectPath: Temp\workerlic
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: The Controlled.sln
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\The Controlled.sln
-    projectPath: The Controlled.sln
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\.unsaved\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.unsaved\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
-    projectPath: TheControlledFMOD\.unsaved\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\.unsaved\.user\Metadata\Mixer.user.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.unsaved\.user\Metadata\Mixer.user.xml
-    projectPath: TheControlledFMOD\.unsaved\.user\Metadata\Mixer.user.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\.unsaved\.user\Metadata\Workspace.user.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.unsaved\.user\Metadata\Workspace.user.xml
-    projectPath: TheControlledFMOD\.unsaved\.user\Metadata\Workspace.user.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
-    projectPath: TheControlledFMOD\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\.user\Metadata\Mixer.user.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.user\Metadata\Mixer.user.xml
-    projectPath: TheControlledFMOD\.user\Metadata\Mixer.user.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\.user\Metadata\Workspace.user.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.user\Metadata\Workspace.user.xml
-    projectPath: TheControlledFMOD\.user\Metadata\Workspace.user.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.xml
-    projectPath: TheControlledFMOD\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Bank\{9b3ad535-aeaa-41d2-9a09-9bc0a0efd5d3}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Bank\{9b3ad535-aeaa-41d2-9a09-9bc0a0efd5d3}.xml
-    projectPath: TheControlledFMOD\Metadata\Bank\{9b3ad535-aeaa-41d2-9a09-9bc0a0efd5d3}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\BankFolder\{efdd1e52-4de0-4d26-bad9-77ee409bd470}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\BankFolder\{efdd1e52-4de0-4d26-bad9-77ee409bd470}.xml
-    projectPath: TheControlledFMOD\Metadata\BankFolder\{efdd1e52-4de0-4d26-bad9-77ee409bd470}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\EffectPresetFolder\{bffa1788-d114-4c77-8e29-4056229e94fc}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\EffectPresetFolder\{bffa1788-d114-4c77-8e29-4056229e94fc}.xml
-    projectPath: TheControlledFMOD\Metadata\EffectPresetFolder\{bffa1788-d114-4c77-8e29-4056229e94fc}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\EncodingSetting\{4da86187-f262-40bd-b2e1-21e797a60d12}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\EncodingSetting\{4da86187-f262-40bd-b2e1-21e797a60d12}.xml
-    projectPath: TheControlledFMOD\Metadata\EncodingSetting\{4da86187-f262-40bd-b2e1-21e797a60d12}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\EventFolder\{71249313-c6ad-4a04-be4d-ce0751c56406}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\EventFolder\{71249313-c6ad-4a04-be4d-ce0751c56406}.xml
-    projectPath: TheControlledFMOD\Metadata\EventFolder\{71249313-c6ad-4a04-be4d-ce0751c56406}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Master.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Master.xml
-    projectPath: TheControlledFMOD\Metadata\Master.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Mixer.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Mixer.xml
-    projectPath: TheControlledFMOD\Metadata\Mixer.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\ParameterPresetFolder\{cf27597f-82ab-4edd-956a-81823147c515}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\ParameterPresetFolder\{cf27597f-82ab-4edd-956a-81823147c515}.xml
-    projectPath: TheControlledFMOD\Metadata\ParameterPresetFolder\{cf27597f-82ab-4edd-956a-81823147c515}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Platform\{12c3326a-5d83-4b2f-8e3e-f4db8b85b3a0}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Platform\{12c3326a-5d83-4b2f-8e3e-f4db8b85b3a0}.xml
-    projectPath: TheControlledFMOD\Metadata\Platform\{12c3326a-5d83-4b2f-8e3e-f4db8b85b3a0}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\ProfilerFolder\{a1d35c89-1133-42fa-8215-032eb04281a8}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\ProfilerFolder\{a1d35c89-1133-42fa-8215-032eb04281a8}.xml
-    projectPath: TheControlledFMOD\Metadata\ProfilerFolder\{a1d35c89-1133-42fa-8215-032eb04281a8}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Return\{e0d3cbad-fdb4-4bc5-b447-75f558b8c258}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Return\{e0d3cbad-fdb4-4bc5-b447-75f558b8c258}.xml
-    projectPath: TheControlledFMOD\Metadata\Return\{e0d3cbad-fdb4-4bc5-b447-75f558b8c258}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\SandboxFolder\{8a9db26b-e3dd-402c-ae3d-510677fe98f4}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\SandboxFolder\{8a9db26b-e3dd-402c-ae3d-510677fe98f4}.xml
-    projectPath: TheControlledFMOD\Metadata\SandboxFolder\{8a9db26b-e3dd-402c-ae3d-510677fe98f4}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\SnapshotGroup\{8c4a59e2-bbde-4245-90d5-ece24eeef1f3}.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\SnapshotGroup\{8c4a59e2-bbde-4245-90d5-ece24eeef1f3}.xml
-    projectPath: TheControlledFMOD\Metadata\SnapshotGroup\{8c4a59e2-bbde-4245-90d5-ece24eeef1f3}.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Tags.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Tags.xml
-    projectPath: TheControlledFMOD\Metadata\Tags.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\Workspace.xml
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\Workspace.xml
-    projectPath: TheControlledFMOD\Metadata\Workspace.xml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\TheControlledFMOD.fspro
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\TheControlledFMOD.fspro
-    projectPath: TheControlledFMOD\TheControlledFMOD.fspro
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
