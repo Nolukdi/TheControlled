@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-04-05T17:47:19.350-04:00
+  lastUpdatedAtString: 2021-04-05T17:53:12.794-04:00
   initializedAtString: 2021-04-05T17:47:19.333-04:00
   localBranches: []
-  remoteBranches: []
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/Nolukdi/TheControlled.git
@@ -32,9 +36,21 @@ MonoBehaviour:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - main
+      - master
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/Nolukdi/TheControlled.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/Nolukdi/TheControlled.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
