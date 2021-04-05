@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using FMOD.Studio;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -23,6 +24,11 @@ public class PlayerController : MonoBehaviour
     bool combo = false;
     bool dashing = false;
 
+    //FMOD
+    private EventInstance eventRef;
+    private PLAYBACK_STATE currentState;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,11 +40,16 @@ public class PlayerController : MonoBehaviour
         timer = 0;
         ePrompt.SetActive(false);
         wPrompt.SetActive(false);
+
+        eventRef = FMODUnity.RuntimeManager.CreateInstance("event:/PlayerSounds/Footsteps");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        eventRef.getPlaybackState(out currentState);
+
         //If player presses D
         if (Input.GetKey(KeyCode.D))
         {
@@ -47,6 +58,13 @@ public class PlayerController : MonoBehaviour
             anim.SetFloat("speed", 1);
             gameObject.transform.rotation = new Quaternion(0, 0, 0, 1);
             facingRight = true;
+
+            //If not playing already
+            if (currentState != PLAYBACK_STATE.PLAYING)
+            {
+                //Trigger sound
+                eventRef.start();
+            }
         }
 
         //If the player presses A
@@ -57,6 +75,14 @@ public class PlayerController : MonoBehaviour
             anim.SetFloat("speed", 1);
             gameObject.transform.rotation = new Quaternion(0, 180, 0, 1);
             facingRight = false;
+
+
+            //If not playing already
+            if (currentState != PLAYBACK_STATE.PLAYING)
+            {
+                //Trigger sound
+                eventRef.start();
+            }
         }
 
         //If the player is not pressing either
@@ -64,6 +90,9 @@ public class PlayerController : MonoBehaviour
         {
             //Stop moving
             anim.SetFloat("speed", 0);
+
+            //Stop sound
+            eventRef.stop(STOP_MODE.ALLOWFADEOUT);
         }
 
         //If the player presses F

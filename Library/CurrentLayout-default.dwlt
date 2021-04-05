@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 6.4
-    y: 48.4
-    width: 1001.2
-    height: 809.2
+    x: 0
+    y: 42
+    width: 1536
+    height: 822
   m_ShowMode: 4
-  m_Title: GitHub
+  m_Title: Project
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1001
-    height: 759
-  m_MinSize: {x: 504, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+    width: 1536
+    height: 772
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 65
+  controlID: 23
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 724
+    x: 1058
     y: 0
-    width: 277
-    height: 759
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+    width: 478
+    height: 772
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +93,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 205
-    height: 341
+    width: 348
+    height: 347
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 341
-    width: 724
-    height: 418
+    y: 347
+    width: 1058
+    height: 425
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -149,9 +149,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1001
-    height: 809
-  m_MinSize: {x: 875, y: 300}
+    width: 1536
+    height: 822
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -174,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1001
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 789
-    width: 1001
+    y: 802
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -222,12 +222,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 724
-    height: 759
+    width: 1058
+    height: 772
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 23
+  controlID: 28
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,12 +247,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 724
-    height: 341
+    width: 1058
+    height: 347
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 201
+  controlID: 29
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,10 +268,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 205
+    x: 348
     y: 0
-    width: 519
-    height: 341
+    width: 710
+    height: 347
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -303,19 +303,19 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 730.4
+    x: 642
     y: 78.4
-    width: 275
-    height: 738
+    width: 244.20001
+    height: 743.8
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -400,67 +400,24 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    commitBody: Finishing commit for Unity Project
-    commitMessage: Final Commit
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
+    commitBody: 
+    commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000009000000000000000
-        - 00000000000000003000000000000000
-        values:
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\ProjectSettings\QualitySettings.asset
-            projectPath: ProjectSettings\QualitySettings.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
         keys:
         - Library
         - Library\gfu
         - Library\gfu\cache
-        - Logs
-        - obj
-        - obj\Debug
-        - ProjectSettings
         - Temp
+        - Temp\__Backupscenes
         values:
         - path: Library
           label: Library
@@ -471,7 +428,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -489,7 +446,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -507,79 +464,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Logs
-          label: Logs
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: obj
-          label: obj
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: obj\Debug
-          label: Debug
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -597,7 +482,25 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Temp\__Backupscenes
+          label: __Backupscenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -607,308 +510,8 @@ MonoBehaviour:
             indexStatus: 0
             workTreeStatus: 0
       checkedFileNodes:
-        keys:
-        - Library\gfu\cache\branches.yaml
-        - Library\gfu\cache\gitlocks.yaml
-        - Library\gfu\cache\gitlog.yaml
-        - Library\gfu\cache\gitstatusentries.yaml
-        - Library\gfu\cache\gittrackingstatus.yaml
-        - Library\gfu\cache\repoinfo.yaml
-        - Library\SourceAssetDB
-        - Logs\Packages-Update.log
-        - obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-        - obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        - ProjectSettings\QualitySettings.asset
-        - ProjectSettings\TagManager.asset
-        - Temp\UnityLockfile
-        - Temp\workerlic
-        - The Controlled.sln
-        values:
-        - path: Library\gfu\cache\branches.yaml
-          label: branches.yaml
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\gfu\cache\branches.yaml
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\gfu\cache\branches.yaml
-            projectPath: Library\gfu\cache\branches.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Library\gfu\cache\gitlocks.yaml
-          label: gitlocks.yaml
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\gfu\cache\gitlocks.yaml
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\gfu\cache\gitlocks.yaml
-            projectPath: Library\gfu\cache\gitlocks.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Library\gfu\cache\gitlog.yaml
-          label: gitlog.yaml
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\gfu\cache\gitlog.yaml
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\gfu\cache\gitlog.yaml
-            projectPath: Library\gfu\cache\gitlog.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Library\gfu\cache\gitstatusentries.yaml
-          label: gitstatusentries.yaml
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\gfu\cache\gitstatusentries.yaml
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\gfu\cache\gitstatusentries.yaml
-            projectPath: Library\gfu\cache\gitstatusentries.yaml
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Library\gfu\cache\gittrackingstatus.yaml
-          label: gittrackingstatus.yaml
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\gfu\cache\gittrackingstatus.yaml
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\gfu\cache\gittrackingstatus.yaml
-            projectPath: Library\gfu\cache\gittrackingstatus.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Library\gfu\cache\repoinfo.yaml
-          label: repoinfo.yaml
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\gfu\cache\repoinfo.yaml
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\gfu\cache\repoinfo.yaml
-            projectPath: Library\gfu\cache\repoinfo.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Library\SourceAssetDB
-          label: SourceAssetDB
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Library\SourceAssetDB
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Library\SourceAssetDB
-            projectPath: Library\SourceAssetDB
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Logs\Packages-Update.log
-          label: Packages-Update.log
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Logs\Packages-Update.log
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Logs\Packages-Update.log
-            projectPath: Logs\Packages-Update.log
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          label: Assembly-CSharp.csprojAssemblyReference.cache
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-            projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-            projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\ProjectSettings\QualitySettings.asset
-            projectPath: ProjectSettings\QualitySettings.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Temp\UnityLockfile
-          label: UnityLockfile
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Temp\UnityLockfile
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Temp\UnityLockfile
-            projectPath: Temp\UnityLockfile
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Temp\workerlic
-          label: workerlic
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Temp\workerlic
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Temp\workerlic
-            projectPath: Temp\workerlic
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: The Controlled.sln
-          label: The Controlled.sln
-          level: 0
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: The Controlled.sln
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\The Controlled.sln
-            projectPath: The Controlled.sln
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       title: 
       pathSeparator: \
       displayRootNode: 0
@@ -925,7 +528,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -943,7 +546,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -961,7 +564,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -979,7 +582,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -997,7 +600,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\branches.yaml
@@ -1016,7 +619,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\gitlocks.yaml
@@ -1035,7 +638,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\gitlog.yaml
@@ -1054,7 +657,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\gitstatusentries.yaml
@@ -1062,8 +665,8 @@ MonoBehaviour:
             Controlled\Library\gfu\cache\gitstatusentries.yaml
           projectPath: Library\gfu\cache\gitstatusentries.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Library\gfu\cache\gittrackingstatus.yaml
         label: gittrackingstatus.yaml
         level: 3
@@ -1073,32 +676,13 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\gfu\cache\gittrackingstatus.yaml
           fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
             Controlled\Library\gfu\cache\gittrackingstatus.yaml
           projectPath: Library\gfu\cache\gittrackingstatus.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\gfu\cache\repoinfo.yaml
-        label: repoinfo.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\repoinfo.yaml
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\gfu\cache\repoinfo.yaml
-          projectPath: Library\gfu\cache\repoinfo.yaml
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1111,180 +695,13 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library\SourceAssetDB
           fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
             Controlled\Library\SourceAssetDB
           projectPath: Library\SourceAssetDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Logs
-        label: Logs
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Logs\Packages-Update.log
-        label: Packages-Update.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Logs\Packages-Update.log
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Logs\Packages-Update.log
-          projectPath: Logs\Packages-Update.log
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj
-        label: obj
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: obj\Debug
-        label: Debug
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-        label: Assembly-CSharp.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1297,7 +714,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1306,6 +723,575 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Temp\__Backupscenes
+        label: __Backupscenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\__Backupscenes\0.backup
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Analytics.dll.hash
+        label: Analytics.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Analytics.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Analytics.dll.hash
+          projectPath: Temp\Analytics.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Assembly-CSharp.dll.hash
+        label: Assembly-CSharp.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Assembly-CSharp.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Assembly-CSharp.dll.hash
+          projectPath: Temp\Assembly-CSharp.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+        label: Assembly-CSharp-Editor-firstpass.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+          projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\CompilationLog.txt
+        label: CompilationLog.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\CompilationLog.txt
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\CompilationLog.txt
+          projectPath: Temp\CompilationLog.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\FMODUnity.dll.hash
+        label: FMODUnity.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\FMODUnity.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\FMODUnity.dll.hash
+          projectPath: Temp\FMODUnity.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\FMODUnityEditor.dll.hash
+        label: FMODUnityEditor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\FMODUnityEditor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\FMODUnityEditor.dll.hash
+          projectPath: Temp\FMODUnityEditor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\FMODUnityResonance.dll.hash
+        label: FMODUnityResonance.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\FMODUnityResonance.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\FMODUnityResonance.dll.hash
+          projectPath: Temp\FMODUnityResonance.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\FMODUnityResonanceEditor.dll.hash
+        label: FMODUnityResonanceEditor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\FMODUnityResonanceEditor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\FMODUnityResonanceEditor.dll.hash
+          projectPath: Temp\FMODUnityResonanceEditor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.2D.Sprite.Editor.dll.hash
+        label: Unity.2D.Sprite.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.2D.Sprite.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.2D.Sprite.Editor.dll.hash
+          projectPath: Temp\Unity.2D.Sprite.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.2D.Tilemap.Editor.dll.hash
+        label: Unity.2D.Tilemap.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.2D.Tilemap.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.2D.Tilemap.Editor.dll.hash
+          projectPath: Temp\Unity.2D.Tilemap.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.Analytics.DataPrivacy.dll.hash
+        label: Unity.Analytics.DataPrivacy.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.Analytics.DataPrivacy.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.Analytics.DataPrivacy.dll.hash
+          projectPath: Temp\Unity.Analytics.DataPrivacy.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.CollabProxy.Editor.dll.hash
+        label: Unity.CollabProxy.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.CollabProxy.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.CollabProxy.Editor.dll.hash
+          projectPath: Temp\Unity.CollabProxy.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.Rider.Editor.dll.hash
+        label: Unity.Rider.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.Rider.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.Rider.Editor.dll.hash
+          projectPath: Temp\Unity.Rider.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.TextMeshPro.dll.hash
+        label: Unity.TextMeshPro.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.TextMeshPro.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.TextMeshPro.dll.hash
+          projectPath: Temp\Unity.TextMeshPro.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.TextMeshPro.Editor.dll.hash
+        label: Unity.TextMeshPro.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.TextMeshPro.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.TextMeshPro.Editor.dll.hash
+          projectPath: Temp\Unity.TextMeshPro.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.Timeline.dll.hash
+        label: Unity.Timeline.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.Timeline.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.Timeline.dll.hash
+          projectPath: Temp\Unity.Timeline.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.Timeline.Editor.dll.hash
+        label: Unity.Timeline.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.Timeline.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.Timeline.Editor.dll.hash
+          projectPath: Temp\Unity.Timeline.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.VisualStudio.Editor.dll.hash
+        label: Unity.VisualStudio.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.VisualStudio.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.VisualStudio.Editor.dll.hash
+          projectPath: Temp\Unity.VisualStudio.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\Unity.VSCode.Editor.dll.hash
+        label: Unity.VSCode.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\Unity.VSCode.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\Unity.VSCode.Editor.dll.hash
+          projectPath: Temp\Unity.VSCode.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEditor.Purchasing.dll.hash
+        label: UnityEditor.Purchasing.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEditor.Purchasing.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEditor.Purchasing.dll.hash
+          projectPath: Temp\UnityEditor.Purchasing.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEditor.TestRunner.dll.hash
+        label: UnityEditor.TestRunner.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEditor.TestRunner.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEditor.TestRunner.dll.hash
+          projectPath: Temp\UnityEditor.TestRunner.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEditor.UI.dll.hash
+        label: UnityEditor.UI.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEditor.UI.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEditor.UI.dll.hash
+          projectPath: Temp\UnityEditor.UI.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEngine.Advertisements.dll.hash
+        label: UnityEngine.Advertisements.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEngine.Advertisements.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEngine.Advertisements.dll.hash
+          projectPath: Temp\UnityEngine.Advertisements.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEngine.Advertisements.Editor.dll.hash
+        label: UnityEngine.Advertisements.Editor.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEngine.Advertisements.Editor.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEngine.Advertisements.Editor.dll.hash
+          projectPath: Temp\UnityEngine.Advertisements.Editor.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEngine.Monetization.dll.hash
+        label: UnityEngine.Monetization.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEngine.Monetization.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEngine.Monetization.dll.hash
+          projectPath: Temp\UnityEngine.Monetization.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEngine.Purchasing.dll.hash
+        label: UnityEngine.Purchasing.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEngine.Purchasing.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEngine.Purchasing.dll.hash
+          projectPath: Temp\UnityEngine.Purchasing.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEngine.TestRunner.dll.hash
+        label: UnityEngine.TestRunner.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEngine.TestRunner.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEngine.TestRunner.dll.hash
+          projectPath: Temp\UnityEngine.TestRunner.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityEngine.UI.dll.hash
+        label: UnityEngine.UI.dll.hash
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityEngine.UI.dll.hash
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityEngine.UI.dll.hash
+          projectPath: Temp\UnityEngine.UI.dll.hash
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Temp\UnityLockfile
         label: UnityLockfile
         level: 1
@@ -1315,13 +1301,526 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Temp\UnityLockfile
           fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
             Controlled\Temp\UnityLockfile
           projectPath: Temp\UnityLockfile
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+        label: UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+          projectPath: Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+        label: UnityTempFile-289f4d3d470c759478eae699a41521e7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+          projectPath: Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+        label: UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+          projectPath: Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+        label: UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+          projectPath: Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+        label: UnityTempFile-4625e8034b472944b93af4f4eac0876a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+          projectPath: Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+        label: UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+          projectPath: Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+        label: UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+          projectPath: Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+        label: UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+          projectPath: Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+        label: UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+          projectPath: Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+        label: UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+          projectPath: Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+        label: UnityTempFile-7d5513787635689478b597458ef2124a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+          projectPath: Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+        label: UnityTempFile-80a07345d1059b4429aae083a57b9050
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+          projectPath: Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+        label: UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+          projectPath: Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+        label: UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+          projectPath: Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+        label: UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+          projectPath: Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+        label: UnityTempFile-a492701e569ee38429a7346ebfda0a76
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+          projectPath: Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+        label: UnityTempFile-a51d146c4252a734190d5417c94bccab
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+          projectPath: Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+        label: UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+          projectPath: Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+        label: UnityTempFile-aedd43225bdc65e46babab1f17943af8
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+          projectPath: Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+        label: UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+          projectPath: Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+        label: UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+          projectPath: Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+        label: UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+          projectPath: Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+        label: UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+          projectPath: Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+        label: UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+          projectPath: Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+        label: UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+          projectPath: Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+        label: UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+          projectPath: Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
+        label: UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
+          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+            Controlled\Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
+          projectPath: Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1334,32 +1833,13 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Temp\workerlic
           fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
             Controlled\Temp\workerlic
           projectPath: Temp\workerlic
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: The Controlled.sln
-        label: The Controlled.sln
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: The Controlled.sln
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\The Controlled.sln
-          projectPath: The Controlled.sln
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1409,19 +1889,12 @@ MonoBehaviour:
         Controlled\Library\gfu\cache\gitstatusentries.yaml
       projectPath: Library\gfu\cache\gitstatusentries.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Library\gfu\cache\gittrackingstatus.yaml
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
         Controlled\Library\gfu\cache\gittrackingstatus.yaml
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\gfu\cache\repoinfo.yaml
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\gfu\cache\repoinfo.yaml
-      projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -1432,45 +1905,402 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Logs\Packages-Update.log
+    - path: Temp\__Backupscenes\0.backup
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Logs\Packages-Update.log
-      projectPath: Logs\Packages-Update.log
+        Controlled\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    - path: Temp\Analytics.dll.hash
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        Controlled\Temp\Analytics.dll.hash
+      projectPath: Temp\Analytics.dll.hash
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    - path: Temp\Assembly-CSharp.dll.hash
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+        Controlled\Temp\Assembly-CSharp.dll.hash
+      projectPath: Temp\Assembly-CSharp.dll.hash
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
+    - path: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
+        Controlled\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+      projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: ProjectSettings\TagManager.asset
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\CompilationLog.txt
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
+        Controlled\Temp\CompilationLog.txt
+      projectPath: Temp\CompilationLog.txt
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\FMODUnity.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\FMODUnity.dll.hash
+      projectPath: Temp\FMODUnity.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\FMODUnityEditor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\FMODUnityEditor.dll.hash
+      projectPath: Temp\FMODUnityEditor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\FMODUnityResonance.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\FMODUnityResonance.dll.hash
+      projectPath: Temp\FMODUnityResonance.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\FMODUnityResonanceEditor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\FMODUnityResonanceEditor.dll.hash
+      projectPath: Temp\FMODUnityResonanceEditor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.2D.Sprite.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.2D.Sprite.Editor.dll.hash
+      projectPath: Temp\Unity.2D.Sprite.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.2D.Tilemap.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.2D.Tilemap.Editor.dll.hash
+      projectPath: Temp\Unity.2D.Tilemap.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.Analytics.DataPrivacy.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.Analytics.DataPrivacy.dll.hash
+      projectPath: Temp\Unity.Analytics.DataPrivacy.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.CollabProxy.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.CollabProxy.Editor.dll.hash
+      projectPath: Temp\Unity.CollabProxy.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.Rider.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.Rider.Editor.dll.hash
+      projectPath: Temp\Unity.Rider.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.TextMeshPro.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.TextMeshPro.dll.hash
+      projectPath: Temp\Unity.TextMeshPro.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.TextMeshPro.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.TextMeshPro.Editor.dll.hash
+      projectPath: Temp\Unity.TextMeshPro.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.Timeline.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.Timeline.dll.hash
+      projectPath: Temp\Unity.Timeline.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.Timeline.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.Timeline.Editor.dll.hash
+      projectPath: Temp\Unity.Timeline.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.VisualStudio.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.VisualStudio.Editor.dll.hash
+      projectPath: Temp\Unity.VisualStudio.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\Unity.VSCode.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\Unity.VSCode.Editor.dll.hash
+      projectPath: Temp\Unity.VSCode.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEditor.Purchasing.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEditor.Purchasing.dll.hash
+      projectPath: Temp\UnityEditor.Purchasing.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEditor.TestRunner.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEditor.TestRunner.dll.hash
+      projectPath: Temp\UnityEditor.TestRunner.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEditor.UI.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEditor.UI.dll.hash
+      projectPath: Temp\UnityEditor.UI.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEngine.Advertisements.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEngine.Advertisements.dll.hash
+      projectPath: Temp\UnityEngine.Advertisements.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEngine.Advertisements.Editor.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEngine.Advertisements.Editor.dll.hash
+      projectPath: Temp\UnityEngine.Advertisements.Editor.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEngine.Monetization.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEngine.Monetization.dll.hash
+      projectPath: Temp\UnityEngine.Monetization.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEngine.Purchasing.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEngine.Purchasing.dll.hash
+      projectPath: Temp\UnityEngine.Purchasing.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEngine.TestRunner.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEngine.TestRunner.dll.hash
+      projectPath: Temp\UnityEngine.TestRunner.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityEngine.UI.dll.hash
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityEngine.UI.dll.hash
+      projectPath: Temp\UnityEngine.UI.dll.hash
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Temp\UnityLockfile
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
         Controlled\Temp\UnityLockfile
       projectPath: Temp\UnityLockfile
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+      projectPath: Temp\UnityTempFile-0ca7c32e0453b724593303a94e7792e2
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+      projectPath: Temp\UnityTempFile-289f4d3d470c759478eae699a41521e7
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+      projectPath: Temp\UnityTempFile-3aa7d31bd5919ed439a8c8638cb3cf59
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+      projectPath: Temp\UnityTempFile-44714e308eb648f42ac5f9cb612f9901
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+      projectPath: Temp\UnityTempFile-4625e8034b472944b93af4f4eac0876a
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+      projectPath: Temp\UnityTempFile-5168946c11ea0144fb8c5ebf321d7a49
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+      projectPath: Temp\UnityTempFile-527d29e3dac7b0e489c45ff1163a66a9
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+      projectPath: Temp\UnityTempFile-5ad9fb02a4c4ad7479b83dbb69aa43ba
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+      projectPath: Temp\UnityTempFile-6916ee342621b4e4a8a8f6cf2e6530cc
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+      projectPath: Temp\UnityTempFile-6cfd7b6a1e13c5c40a7ac8e8f5e8a62a
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+      projectPath: Temp\UnityTempFile-7d5513787635689478b597458ef2124a
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+      projectPath: Temp\UnityTempFile-80a07345d1059b4429aae083a57b9050
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+      projectPath: Temp\UnityTempFile-86ea9173b0afeb342a9941aa02705e9e
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+      projectPath: Temp\UnityTempFile-9455b0cfc3ec139408705041f0399d5b
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+      projectPath: Temp\UnityTempFile-9f5655a4141d5d840b1d556e3c96a067
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+      projectPath: Temp\UnityTempFile-a492701e569ee38429a7346ebfda0a76
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+      projectPath: Temp\UnityTempFile-a51d146c4252a734190d5417c94bccab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+      projectPath: Temp\UnityTempFile-aaf0376acece7904f9b8ab4ff2c2e65f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+      projectPath: Temp\UnityTempFile-aedd43225bdc65e46babab1f17943af8
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+      projectPath: Temp\UnityTempFile-b639dd7f8103bb54680fca3b83f43874
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+      projectPath: Temp\UnityTempFile-b7691ecafe83c5f4f95101dbdb24798c
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+      projectPath: Temp\UnityTempFile-bb9e95b6011caad44bd61fd1768e9c76
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+      projectPath: Temp\UnityTempFile-c06b2346510f2d94b82a16546dbec8d2
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+      projectPath: Temp\UnityTempFile-c432ed89d8866e74d9f665b53cce2bc1
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+      projectPath: Temp\UnityTempFile-d3b070f48b691f74d8e1f537b88fd0af
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+      projectPath: Temp\UnityTempFile-f6b3944504ec39a4ab3777d020ded14f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
+      projectPath: Temp\UnityTempFile-f8b698fdf9ab242428acf97cac0eaed3
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
@@ -1481,22 +2311,15 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: The Controlled.sln
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\The Controlled.sln
-      projectPath: The Controlled.sln
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 15 changed files
+    changedFilesText: 64 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2021-04-05T17:55:03.916-04:00
+      updatedTimeString: 2021-04-05T19:04:53.312-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-04-05T17:55:05.750-04:00
+      updatedTimeString: 2021-04-05T19:11:47.126-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2021-04-05T17:55:05.908-04:00
+      updatedTimeString: 2021-04-05T19:06:54.945-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -1818,13 +2641,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2021-04-05T17:55:03.916-04:00
+    updatedTimeString: 2021-04-05T18:39:44.320-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2021-04-05T17:55:16.754-04:00
+    updatedTimeString: 2021-04-05T18:40:14.170-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2021-04-05T17:55:05.750-04:00
+    updatedTimeString: 2021-04-05T18:40:14.135-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1864,7 +2687,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animation
-    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -8967370667835289719, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1893,7 +2716,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6973158847631862895, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -2008,15 +2831,15 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 227.2
+    x: 211.6
     y: 78.4
-    width: 570.80005
-    height: 470.2
+    width: 517
+    height: 320
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
@@ -2034,15 +2857,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 6.4
-    y: 419.6
-    width: 723
-    height: 397
+    x: 0
+    y: 419.2
+    width: 1057
+    height: 404
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2057,13 +2880,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Anim
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Anim
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
     Controlled
@@ -2071,9 +2894,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c400000
-    m_LastClickedID: 16412
-    m_ExpandedIDs: 000000000c4000001a40000000ca9a3b
+    m_SelectedIDs: 80410000
+    m_LastClickedID: 16768
+    m_ExpandedIDs: 000000008041000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2101,7 +2924,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c400000
+    m_ExpandedIDs: 0000000080410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2128,7 +2951,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000c7f000000000000409b00003c3b000042550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2173,15 +2996,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 730.4
-    y: 78.4
-    width: 275
-    height: 738
+    x: 1058
+    y: 72
+    width: 477
+    height: 751
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -2211,15 +3034,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 6.4
-    y: 78.4
-    width: 204
-    height: 320
+    x: 0
+    y: 72
+    width: 347
+    height: 326
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -2266,15 +3089,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 211.6
-    y: 78.4
-    width: 517
-    height: 320
+    x: 348
+    y: 72
+    width: 708
+    height: 326
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 56635c38a1d8df04e8f89cb318cc0f07
@@ -2338,7 +3161,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.07886783, y: 0.0779744, z: 0.0062031634, w: -0.99386287}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.07886381, y: 0.07797042, z: 0.0062028468, w: -0.99381214}
   m_Size:
     m_Target: 5.613051
     speed: 2
@@ -2383,15 +3206,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 206.40001
-    y: 78.4
-    width: 517.6
-    height: 322.6
+    x: 348
+    y: 72
+    width: 708
+    height: 326
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -2414,10 +3237,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -288
+    m_VBaseRangeMax: 288
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2434,24 +3257,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 517.6
-      height: 322.6
-    m_Scale: {x: 0.2021875, y: 0.2021875}
-    m_Translation: {x: 258.8, y: 161.3}
+      y: 21
+      width: 708
+      height: 305
+    m_Scale: {x: 0.5295139, y: 0.5295139}
+    m_Translation: {x: 354, y: 152.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1280
-      y: -797.7744
-      width: 2560
-      height: 1595.5488
+      x: -668.5377
+      y: -288
+      width: 1337.0754
+      height: 576
     m_MinimalGUI: 1
-  m_defaultScale: 0.2021875
-  m_LastWindowPixelSize: {x: 517.6, y: 322.6}
+  m_defaultScale: 0.5295139
+  m_LastWindowPixelSize: {x: 1770, y: 815}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2473,15 +3296,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0.8
-    y: 421.6
-    width: 724.2
-    height: 400.59998
+    x: 0
+    y: 419.2
+    width: 1057
+    height: 404
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &22
 MonoBehaviour:
