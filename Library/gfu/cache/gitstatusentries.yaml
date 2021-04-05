@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-05T18:01:17.383-04:00
+  lastUpdatedAtString: 2021-04-05T18:02:04.507-04:00
   initializedAtString: 2021-04-05T17:58:59.918-04:00
   entries:
   - path: Library\gfu\cache\branches.yaml
@@ -36,7 +36,7 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\gfu\cache\gitstatusentries.yaml
@@ -58,13 +58,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Logs\Packages-Update.log
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Logs\Packages-Update.log
-    projectPath: Logs\Packages-Update.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Temp\UnityLockfile
@@ -72,10 +65,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ae2f3c61ac2066d408f471708de19cbb
+  - path: Temp\UnityTempFile-279532d5449694043bd38023620e9380
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Temp\UnityTempFile-ae2f3c61ac2066d408f471708de19cbb
-    projectPath: Temp\UnityTempFile-ae2f3c61ac2066d408f471708de19cbb
+      Controlled\Temp\UnityTempFile-279532d5449694043bd38023620e9380
+    projectPath: Temp\UnityTempFile-279532d5449694043bd38023620e9380
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
