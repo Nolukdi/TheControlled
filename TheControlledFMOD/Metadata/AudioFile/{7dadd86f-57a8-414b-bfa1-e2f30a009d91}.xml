@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7dadd86f-57a8-414b-bfa1-e2f30a009d91}">
+		<property name="assetPath">
+			<value>IconAppear.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1619954648526076</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0d49b34d-7196-4065-a625-c7b2b83dd9be}</destination>
+		</relationship>
+	</object>
+</objects>

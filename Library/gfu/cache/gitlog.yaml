@@ -13,9 +13,421 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-04-05T18:40:04.313-04:00
-  initializedAtString: 2021-04-05T17:59:45.323-04:00
+  lastUpdatedAtString: 2021-04-15T05:01:50.018-04:00
+  initializedAtString: 2021-04-15T04:14:23.449-04:00
   log:
+  - commitID: 6c3ebf9a3492ffa9ad75661ccff44c43ec4dacad
+    mergeA: 
+    mergeB: 
+    authorName: Alex Di Filippo
+    authorEmail: ald1289@rit.edu
+    commitEmail: ald1289@rit.edu
+    commitName: Alex Di Filippo
+    summary: FMOD Complete Integration
+    description: '-FMOD integration complete
+
+      -Built master bank
+
+      -Added
+      initial footstep sound to test connection
+
+      -Added reaper project for
+      sound file prep'
+    timeString: 2021-04-05T19:52:19.000-04:00
+    commitTimeString: 2021-04-05T19:52:19.000-04:00
+    changes:
+    - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
+      projectPath: Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\EliBedroom.unity
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Assets\Scenes\EliBedroom.unity
+      projectPath: Assets\Scenes\EliBedroom.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerController.cs
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Assets\Scripts\PlayerController.cs
+      projectPath: Assets\Scripts\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\1b\1bd2a1d573861b6b2918a6d82be78ac0
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\1b\1bd2a1d573861b6b2918a6d82be78ac0
+      projectPath: Library\Artifacts\1b\1bd2a1d573861b6b2918a6d82be78ac0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\20\2073c626d9870ae06b9f490633ad7b95
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\20\2073c626d9870ae06b9f490633ad7b95
+      projectPath: Library\Artifacts\20\2073c626d9870ae06b9f490633ad7b95
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2e\2ea8384691cf5963ec71a8611f7dd76e
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\2e\2ea8384691cf5963ec71a8611f7dd76e
+      projectPath: Library\Artifacts\2e\2ea8384691cf5963ec71a8611f7dd76e
+      originalPath: Library\Artifacts\6d\6d4a27a0e5178f5acbc367758c13daae
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\30\30423edfeb49125ddbffbb1273384c17
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\30\30423edfeb49125ddbffbb1273384c17
+      projectPath: Library\Artifacts\30\30423edfeb49125ddbffbb1273384c17
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\46\467da56711ff78841e5c7091b9d3d62e
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\46\467da56711ff78841e5c7091b9d3d62e
+      projectPath: Library\Artifacts\46\467da56711ff78841e5c7091b9d3d62e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\62\62e40282356455fb1021a52195271ed9
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\62\62e40282356455fb1021a52195271ed9
+      projectPath: Library\Artifacts\62\62e40282356455fb1021a52195271ed9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\6d\6d3cf47c0f79bc271b2ab504a76f8e47
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\6d\6d3cf47c0f79bc271b2ab504a76f8e47
+      projectPath: Library\Artifacts\6d\6d3cf47c0f79bc271b2ab504a76f8e47
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a8\a89189cde2699913f916ffb39196bce1
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\a8\a89189cde2699913f916ffb39196bce1
+      projectPath: Library\Artifacts\a8\a89189cde2699913f916ffb39196bce1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d5\d5b1c9eb835ea8c6a98e65c6212f54a0
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\d5\d5b1c9eb835ea8c6a98e65c6212f54a0
+      projectPath: Library\Artifacts\d5\d5b1c9eb835ea8c6a98e65c6212f54a0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f7\f74eb8baa72b4676bd99272a3fc6ea45
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\Artifacts\f7\f74eb8baa72b4676bd99272a3fc6ea45
+      projectPath: Library\Artifacts\f7\f74eb8baa72b4676bd99272a3fc6ea45
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorSnapSettings.asset
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\EditorSnapSettings.asset
+      projectPath: Library\EditorSnapSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
+      projectPath: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0.log
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: TheControlledFMOD\.cache\fsbcache\Desktop\B7B66D4B.fobj
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\B7B66D4B.fobj
+      projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\B7B66D4B.fobj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\.cache\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.pdc
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\.cache\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.pdc
+      projectPath: TheControlledFMOD\.cache\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.pdc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\.cache\{ce9fdbda-986d-49a9-bb7d-4cf3bce107e4}.pdc
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\.cache\{ce9fdbda-986d-49a9-bb7d-4cf3bce107e4}.pdc
+      projectPath: TheControlledFMOD\.cache\{ce9fdbda-986d-49a9-bb7d-4cf3bce107e4}.pdc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\.unsaved\Metadata\AudioFile\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\.unsaved\Metadata\AudioFile\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.xml
+      projectPath: TheControlledFMOD\.unsaved\Metadata\AudioFile\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\.unsaved\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\.unsaved\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+      projectPath: TheControlledFMOD\.unsaved\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\.unsaved\metadataFileMapping.data
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\.unsaved\metadataFileMapping.data
+      projectPath: TheControlledFMOD\.unsaved\metadataFileMapping.data
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Assets\06-Footsteps-210222_1645.wav
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Assets\06-Footsteps-210222_1645.wav
+      projectPath: TheControlledFMOD\Assets\06-Footsteps-210222_1645.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Assets\Footsteps.wav
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Assets\Footsteps.wav
+      projectPath: TheControlledFMOD\Assets\Footsteps.wav
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Build\Desktop\Master.bank
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Build\Desktop\Master.bank
+      projectPath: TheControlledFMOD\Build\Desktop\Master.bank
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Build\Desktop\Master.strings.bank
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Build\Desktop\Master.strings.bank
+      projectPath: TheControlledFMOD\Build\Desktop\Master.strings.bank
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\AudioFile\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\AudioFile\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.xml
+      projectPath: TheControlledFMOD\Metadata\AudioFile\{5c24e621-7cd7-4806-8c6c-f49fc1b3670b}.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\AudioFile\{ce9fdbda-986d-49a9-bb7d-4cf3bce107e4}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\AudioFile\{ce9fdbda-986d-49a9-bb7d-4cf3bce107e4}.xml
+      projectPath: TheControlledFMOD\Metadata\AudioFile\{ce9fdbda-986d-49a9-bb7d-4cf3bce107e4}.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\Event\{43f78ca2-3c2f-4d1e-a224-99d5e65d6130}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\Event\{43f78ca2-3c2f-4d1e-a224-99d5e65d6130}.xml
+      projectPath: TheControlledFMOD\Metadata\Event\{43f78ca2-3c2f-4d1e-a224-99d5e65d6130}.xml
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\Event\{63b49571-cd9f-4058-9ccb-256c10c9b6e3}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\Event\{63b49571-cd9f-4058-9ccb-256c10c9b6e3}.xml
+      projectPath: TheControlledFMOD\Metadata\Event\{63b49571-cd9f-4058-9ccb-256c10c9b6e3}.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\Event\{9bcc904c-f200-46ff-bba2-08845650c115}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\Event\{9bcc904c-f200-46ff-bba2-08845650c115}.xml
+      projectPath: TheControlledFMOD\Metadata\Event\{9bcc904c-f200-46ff-bba2-08845650c115}.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\Event\{af3bbcad-2208-4245-8160-62db392f7a8e}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\Event\{af3bbcad-2208-4245-8160-62db392f7a8e}.xml
+      projectPath: TheControlledFMOD\Metadata\Event\{af3bbcad-2208-4245-8160-62db392f7a8e}.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TheControlledFMOD\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\TheControlledFMOD\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+      projectPath: TheControlledFMOD\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: fmod_editor.log
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\fmod_editor.log
+      projectPath: fmod_editor.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\FMODUnity.csprojAssemblyReference.cache
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\obj\Debug\FMODUnity.csprojAssemblyReference.cache
+      projectPath: obj\Debug\FMODUnity.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\FMODUnityResonance.csprojAssemblyReference.cache
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\obj\Debug\FMODUnityResonance.csprojAssemblyReference.cache
+      projectPath: obj\Debug\FMODUnityResonance.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\FMODUnityResonanceEditor.csprojAssemblyReference.cache
+      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+        Controlled\obj\Debug\FMODUnityResonanceEditor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\FMODUnityResonanceEditor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: f7a1cfee8345e62ee61970a0a6f430456c1526f9
     mergeA: 
     mergeB: 

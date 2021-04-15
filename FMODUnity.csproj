@@ -56,39 +56,39 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod_studio.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\android\src\PlatformAndroid.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformGroup.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\RuntimeUtils.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioGlobalParameterTrigger.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\FMODRuntimeManagerOnGUIHelper.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod_dsp.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\win\src\PlatformWindows.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformMobileLow.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformGroup.cs" />
     <Compile Include="Assets\Plugins\FMOD\platforms\ios\src\PlatformIOS.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\RuntimeManager.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioEventEmitter.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\EventHandler.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\EventRefAttribute.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioParameterTrigger.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\Settings.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioBankLoader.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformPlayInEditor.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioListener.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod_errors.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\ParamRef.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\html5\src\PlatformWebGL.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\RuntimeUtils.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\BankRefAttribute.cs" />
     <Compile Include="Assets\Plugins\FMOD\platforms\tvos\src\PlatformAppleTV.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\Platform.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\FMODRuntimeManagerOnGUIHelper.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\RuntimeManager.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\EventHandler.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\EventRefAttribute.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\ParamRefAttribute.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioListener.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformMobileLow.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\android\src\PlatformAndroid.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\win\src\PlatformWindows.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\Timeline\FMODEventTrack.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod_errors.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioParameterTrigger.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\Timeline\FMODEventPlayable.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\mac\src\PlatformMac.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\StudioEventEmitter.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformPlayInEditor.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformDefault.cs" />
     <Compile Include="Assets\Plugins\FMOD\platforms\linux\src\PlatformLinux.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\Platform.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\ParamRef.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\Settings.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Runtime\Timeline\FMODEventPlayable.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\PlatformMobileHigh.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\html5\src\PlatformWebGL.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\mac\src\PlatformMac.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\CodeGeneration.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -348,20 +348,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.5\net35\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
       <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll</HintPath>
@@ -369,11 +366,14 @@
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Unity.45">
-      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
+    <Reference Include="GitHub.Logging">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.5\net35\unity-custom\nunit.framework.dll</HintPath>
+    <Reference Include="sfw.net">
+      <HintPath>Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8698459420540563311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/ChatBubble
+  m_EditorClassIdentifier: 
+  Path: event:/UI/ChatBubble
+  guid: 5a6772c296927c4d956668367aeece4d
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8297956292436674911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,10 +61,56 @@ MonoBehaviour:
   Path: TheControlledFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637532490122682971
+  lastModified: 637540607327463289
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-5677227900141930244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/TearsFalling
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/TearsFalling
+  guid: 8cd8bd527de3824588d66584d3b03075
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-2671233098055067085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/The Investigation
+  m_EditorClassIdentifier: 
+  Path: event:/Music/The Investigation
+  guid: 072bf8c74dc86c4e986ebbb3f0e28d37
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,17 +128,67 @@ MonoBehaviour:
   - {fileID: -5923635402057766313}
   EditorEvents:
   - {fileID: -8297956292436674911}
-  - {fileID: 5230360515803374973}
   - {fileID: 7374866403962638792}
-  - {fileID: 5017705054129440803}
+  - {fileID: -5677227900141930244}
+  - {fileID: 2850934798882257737}
+  - {fileID: -8698459420540563311}
+  - {fileID: 2792946246573448440}
+  - {fileID: 3027132310150179599}
+  - {fileID: -2671233098055067085}
   EditorParameters:
   - {fileID: 5694246660169034020}
   MasterBanks:
   - {fileID: -5923635402057766313}
   StringsBanks:
   - {fileID: 3723588019039024856}
-  stringsBankWriteTime: 637532490122742832
+  stringsBankWriteTime: 637540607327523145
   cacheVersion: 6
+--- !u!114 &2792946246573448440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/MenuSelect
+  m_EditorClassIdentifier: 
+  Path: event:/UI/MenuSelect
+  guid: 393d69c1c66d1b4a9e9ed26355fb2499
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2850934798882257737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/IconAppear
+  m_EditorClassIdentifier: 
+  Path: event:/UI/IconAppear
+  guid: db00781fce4f8f429a07d652cad0a596
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &2950166048432618146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +211,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &3027132310150179599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MenuChange
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MenuChange
+  guid: d1bfe604b4cd8b44a0cbcaaa38194ed1
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3723588019039024856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,11 +249,11 @@ MonoBehaviour:
   Path: TheControlledFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637532490122742832
+  lastModified: 637540607327523145
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 952
+    Value: 1370
   Exists: 1
 --- !u!114 &5017705054129440803
 MonoBehaviour:
@@ -127,8 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambience/Ambience
   guid: adbc3baf08224542816062db392f7a8e
-  Banks:
-  - {fileID: -5923635402057766313}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -150,8 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Music/Music
   guid: 7195b4639fcd58409ccb256c10c9b6e3
-  Banks:
-  - {fileID: -5923635402057766313}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
