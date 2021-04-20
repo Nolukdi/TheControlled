@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/EliBedroom.unity
     guid: 0a1ed009aaae5b840919a04125e0fc58
   - enabled: 1
+    path: Assets/Scenes/CityStreet1.unity
+    guid: 49a9a4e2713e4ae489c4f3c004fa7474
+  - enabled: 1
     path: Assets/Scenes/FightingArena.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

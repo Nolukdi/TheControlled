@@ -13,16 +13,758 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-20T01:00:31.438-04:00
-  initializedAtString: 2021-04-19T23:00:44.034-04:00
+  lastUpdatedAtString: 2021-04-20T04:15:39.229-04:00
+  initializedAtString: 2021-04-20T03:38:49.402-04:00
   entries:
   - path: .gitignore
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\.gitignore
     projectPath: .gitignore
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\The Controlled\v16\.suo
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\.vs\The Controlled\v16\.suo
+    projectPath: .vs\The Controlled\v16\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide
+    projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
+    projectPath: Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Plugins\FMOD\lib\win\x86_64\fmodstudioL.dll.meta
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Plugins\FMOD\lib\win\x86_64\fmodstudioL.dll.meta
+    projectPath: Assets\Plugins\FMOD\lib\win\x86_64\fmodstudioL.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Chat.prefab
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Prefabs\Chat.prefab
+    projectPath: Assets\Prefabs\Chat.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\CityStreet1.unity
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scenes\CityStreet1.unity
+    projectPath: Assets\Scenes\CityStreet1.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\EliBedroom.unity
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scenes\EliBedroom.unity
+    projectPath: Assets\Scenes\EliBedroom.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\MainMenu.unity
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scenes\MainMenu.unity
+    projectPath: Assets\Scenes\MainMenu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Bedroom.cs
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scripts\Bedroom.cs
+    projectPath: Assets\Scripts\Bedroom.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Icons.cs
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scripts\Icons.cs
+    projectPath: Assets\Scripts\Icons.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Leave.cs
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scripts\Leave.cs
+    projectPath: Assets\Scripts\Leave.cs
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Assets\Scripts\Leave.cs.meta
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scripts\Leave.cs.meta
+    projectPath: Assets\Scripts\Leave.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\WaitToAppear.cs
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scripts\WaitToAppear.cs
+    projectPath: Assets\Scripts\WaitToAppear.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\WaitToAppear.cs.meta
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\Scripts\WaitToAppear.cs.meta
+    projectPath: Assets\Scripts\WaitToAppear.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets.meta
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\StreamingAssets.meta
+    projectPath: Assets\StreamingAssets.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Master.bank
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\StreamingAssets\Master.bank
+    projectPath: Assets\StreamingAssets\Master.bank
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Master.bank.meta
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\StreamingAssets\Master.bank.meta
+    projectPath: Assets\StreamingAssets\Master.bank.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Master.strings.bank
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\StreamingAssets\Master.strings.bank
+    projectPath: Assets\StreamingAssets\Master.strings.bank
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Master.strings.bank.meta
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Assets\StreamingAssets\Master.strings.bank.meta
+    projectPath: Assets\StreamingAssets\Master.strings.bank.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: fmod_editor.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\fmod_editor.log
+    projectPath: fmod_editor.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ArtifactDB
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Artifacts\02\0220c7973b19e209736451a5c390f138
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\02\0220c7973b19e209736451a5c390f138
+    projectPath: Library\Artifacts\02\0220c7973b19e209736451a5c390f138
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\08\08aa8144fc8cf00bf3e1731c39d70688
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\08\08aa8144fc8cf00bf3e1731c39d70688
+    projectPath: Library\Artifacts\08\08aa8144fc8cf00bf3e1731c39d70688
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0b\0b1c4493d3615c029035ec8edd592155
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\0b\0b1c4493d3615c029035ec8edd592155
+    projectPath: Library\Artifacts\0b\0b1c4493d3615c029035ec8edd592155
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0c\0ce0de75628e5ca813fb34a51450a9da
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\0c\0ce0de75628e5ca813fb34a51450a9da
+    projectPath: Library\Artifacts\0c\0ce0de75628e5ca813fb34a51450a9da
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0d\0d674b54c3f1a445f35afbdaf754dc97
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\0d\0d674b54c3f1a445f35afbdaf754dc97
+    projectPath: Library\Artifacts\0d\0d674b54c3f1a445f35afbdaf754dc97
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\12\124c02bdf29b1850ea775dd763f5db37
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\12\124c02bdf29b1850ea775dd763f5db37
+    projectPath: Library\Artifacts\12\124c02bdf29b1850ea775dd763f5db37
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\13\133e1016a5fe0b2ea832347f82df6b41
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\13\133e1016a5fe0b2ea832347f82df6b41
+    projectPath: Library\Artifacts\13\133e1016a5fe0b2ea832347f82df6b41
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\19\194c8a5629975fc091a354b560832edc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\19\194c8a5629975fc091a354b560832edc
+    projectPath: Library\Artifacts\19\194c8a5629975fc091a354b560832edc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1d\1dd09112b2df2c17d00c6f7084897a9c
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\1d\1dd09112b2df2c17d00c6f7084897a9c
+    projectPath: Library\Artifacts\1d\1dd09112b2df2c17d00c6f7084897a9c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1f\1f4f85feb1c6eccf4a6b8fed76d96a43
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\1f\1f4f85feb1c6eccf4a6b8fed76d96a43
+    projectPath: Library\Artifacts\1f\1f4f85feb1c6eccf4a6b8fed76d96a43
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\22\229b4502ec717ba1d35f046089a60be2
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\22\229b4502ec717ba1d35f046089a60be2
+    projectPath: Library\Artifacts\22\229b4502ec717ba1d35f046089a60be2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\23\23163469a64f4efda93490b71689c562
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\23\23163469a64f4efda93490b71689c562
+    projectPath: Library\Artifacts\23\23163469a64f4efda93490b71689c562
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\26\26e24d252e588554da6bca4a3926edb0
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\26\26e24d252e588554da6bca4a3926edb0
+    projectPath: Library\Artifacts\26\26e24d252e588554da6bca4a3926edb0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2d\2d2d90bed77f572089ca04377e86f440
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\2d\2d2d90bed77f572089ca04377e86f440
+    projectPath: Library\Artifacts\2d\2d2d90bed77f572089ca04377e86f440
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\33\3331b6e948ae9feee8ca924e37390b2b
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\33\3331b6e948ae9feee8ca924e37390b2b
+    projectPath: Library\Artifacts\33\3331b6e948ae9feee8ca924e37390b2b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\34\34ddf98f9f11f463eea739e000695369
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\34\34ddf98f9f11f463eea739e000695369
+    projectPath: Library\Artifacts\34\34ddf98f9f11f463eea739e000695369
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\38\38f730cf3ce1cfe21d6767f7e1d9c994
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\38\38f730cf3ce1cfe21d6767f7e1d9c994
+    projectPath: Library\Artifacts\38\38f730cf3ce1cfe21d6767f7e1d9c994
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\39\390dcab7f04e34dc66de5bf3bb749bcc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\39\390dcab7f04e34dc66de5bf3bb749bcc
+    projectPath: Library\Artifacts\39\390dcab7f04e34dc66de5bf3bb749bcc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\39\39a53b66b7423245804dff881e583be8
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\39\39a53b66b7423245804dff881e583be8
+    projectPath: Library\Artifacts\39\39a53b66b7423245804dff881e583be8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3f\3fadb67ac3bb12a5a391dfe1836ba1c8
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\3f\3fadb67ac3bb12a5a391dfe1836ba1c8
+    projectPath: Library\Artifacts\3f\3fadb67ac3bb12a5a391dfe1836ba1c8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3f\3fcee6a09b79470eb5522134af2aa0f0
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\3f\3fcee6a09b79470eb5522134af2aa0f0
+    projectPath: Library\Artifacts\3f\3fcee6a09b79470eb5522134af2aa0f0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\41\41001b1b34105aa41c8ab20cbfbb829c
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\41\41001b1b34105aa41c8ab20cbfbb829c
+    projectPath: Library\Artifacts\41\41001b1b34105aa41c8ab20cbfbb829c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\41\41cb3407c45f5593527bfd851124d624
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\41\41cb3407c45f5593527bfd851124d624
+    projectPath: Library\Artifacts\41\41cb3407c45f5593527bfd851124d624
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\42\423fdddc4e197a93cf4aa5fd2305c220
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\42\423fdddc4e197a93cf4aa5fd2305c220
+    projectPath: Library\Artifacts\42\423fdddc4e197a93cf4aa5fd2305c220
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4c\4cf30c8c9c6ae207550d8baf2bc85296
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\4c\4cf30c8c9c6ae207550d8baf2bc85296
+    projectPath: Library\Artifacts\4c\4cf30c8c9c6ae207550d8baf2bc85296
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4f\4f08fcab61627a1310835c00f5563b46
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\4f\4f08fcab61627a1310835c00f5563b46
+    projectPath: Library\Artifacts\4f\4f08fcab61627a1310835c00f5563b46
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\50\50141fcd8c744f390a14c88a97d46e50
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\50\50141fcd8c744f390a14c88a97d46e50
+    projectPath: Library\Artifacts\50\50141fcd8c744f390a14c88a97d46e50
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\53\535d6abdcd537aa595c66aafdfd670fc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\53\535d6abdcd537aa595c66aafdfd670fc
+    projectPath: Library\Artifacts\53\535d6abdcd537aa595c66aafdfd670fc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5f\5f3aea7b39fa63763d511c33cab7f48c
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\5f\5f3aea7b39fa63763d511c33cab7f48c
+    projectPath: Library\Artifacts\5f\5f3aea7b39fa63763d511c33cab7f48c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5f\5f90105b6c46257134ae0953c4e0bc77
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\5f\5f90105b6c46257134ae0953c4e0bc77
+    projectPath: Library\Artifacts\5f\5f90105b6c46257134ae0953c4e0bc77
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\60\6093b775553a21ab00863b01398674f2
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\60\6093b775553a21ab00863b01398674f2
+    projectPath: Library\Artifacts\60\6093b775553a21ab00863b01398674f2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\61\6146342464e378e650749f46045a5a86
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\61\6146342464e378e650749f46045a5a86
+    projectPath: Library\Artifacts\61\6146342464e378e650749f46045a5a86
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\63\6363b6852a319f81f2fb3282dbdfab29
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\63\6363b6852a319f81f2fb3282dbdfab29
+    projectPath: Library\Artifacts\63\6363b6852a319f81f2fb3282dbdfab29
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\65\6565209d34aca0bfaee3a55f20ff5f90
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\65\6565209d34aca0bfaee3a55f20ff5f90
+    projectPath: Library\Artifacts\65\6565209d34aca0bfaee3a55f20ff5f90
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\74\7405ea78df0c6815b0b41d639f1333ab
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\74\7405ea78df0c6815b0b41d639f1333ab
+    projectPath: Library\Artifacts\74\7405ea78df0c6815b0b41d639f1333ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\75043ca00e25d9a930bc315bb5da54c5
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\75\75043ca00e25d9a930bc315bb5da54c5
+    projectPath: Library\Artifacts\75\75043ca00e25d9a930bc315bb5da54c5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\752921a3dceda03ced333f7fa9cc9bf3
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\75\752921a3dceda03ced333f7fa9cc9bf3
+    projectPath: Library\Artifacts\75\752921a3dceda03ced333f7fa9cc9bf3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7b\7b8235721648b6dc75e1e15b2aeb6252
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\7b\7b8235721648b6dc75e1e15b2aeb6252
+    projectPath: Library\Artifacts\7b\7b8235721648b6dc75e1e15b2aeb6252
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7d\7d4e96ba1b7c5f41954edb01b7025887
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\7d\7d4e96ba1b7c5f41954edb01b7025887
+    projectPath: Library\Artifacts\7d\7d4e96ba1b7c5f41954edb01b7025887
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7e\7ea6a1fc752695e63e61ece4883f36d5
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\7e\7ea6a1fc752695e63e61ece4883f36d5
+    projectPath: Library\Artifacts\7e\7ea6a1fc752695e63e61ece4883f36d5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7f\7f8cf20d12fe324c0d2a5657228f9e75
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\7f\7f8cf20d12fe324c0d2a5657228f9e75
+    projectPath: Library\Artifacts\7f\7f8cf20d12fe324c0d2a5657228f9e75
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\82\82e6ba6c9fa9cbd81d12e32cdf9ec2bd
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\82\82e6ba6c9fa9cbd81d12e32cdf9ec2bd
+    projectPath: Library\Artifacts\82\82e6ba6c9fa9cbd81d12e32cdf9ec2bd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\83\8300d894d854b01185a54d13e92f59ba
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\83\8300d894d854b01185a54d13e92f59ba
+    projectPath: Library\Artifacts\83\8300d894d854b01185a54d13e92f59ba
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\83\83111240234b08e2e75a0523f82ec6a0
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\83\83111240234b08e2e75a0523f82ec6a0
+    projectPath: Library\Artifacts\83\83111240234b08e2e75a0523f82ec6a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\88\885da6653dfe932c4ded6cabebcb837c
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\88\885da6653dfe932c4ded6cabebcb837c
+    projectPath: Library\Artifacts\88\885da6653dfe932c4ded6cabebcb837c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\89\894ebcbade24c54a423b0941a1b9e87e
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\89\894ebcbade24c54a423b0941a1b9e87e
+    projectPath: Library\Artifacts\89\894ebcbade24c54a423b0941a1b9e87e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8b\8bbcc5a4a5784e1a7fc3c6d41cdda082
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\8b\8bbcc5a4a5784e1a7fc3c6d41cdda082
+    projectPath: Library\Artifacts\8b\8bbcc5a4a5784e1a7fc3c6d41cdda082
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8c2f7494d966101a1a4e9fe6402d62db
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\8c\8c2f7494d966101a1a4e9fe6402d62db
+    projectPath: Library\Artifacts\8c\8c2f7494d966101a1a4e9fe6402d62db
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\92\929d78cf779e13c1a1a0269aa7c29b03
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\92\929d78cf779e13c1a1a0269aa7c29b03
+    projectPath: Library\Artifacts\92\929d78cf779e13c1a1a0269aa7c29b03
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\94\94f84470d159db5b351e716088ed1955
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\94\94f84470d159db5b351e716088ed1955
+    projectPath: Library\Artifacts\94\94f84470d159db5b351e716088ed1955
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\95\95de8d8ad13d885fabfb202939110f8c
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\95\95de8d8ad13d885fabfb202939110f8c
+    projectPath: Library\Artifacts\95\95de8d8ad13d885fabfb202939110f8c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9a\9a5e93ef4b2086b38f7e666f688aa340
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\9a\9a5e93ef4b2086b38f7e666f688aa340
+    projectPath: Library\Artifacts\9a\9a5e93ef4b2086b38f7e666f688aa340
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a0\a008ee15b23f62736ca8631e2b7863e9
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\a0\a008ee15b23f62736ca8631e2b7863e9
+    projectPath: Library\Artifacts\a0\a008ee15b23f62736ca8631e2b7863e9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a1\a15ca05d025faf2a9c27ca0c77520202
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\a1\a15ca05d025faf2a9c27ca0c77520202
+    projectPath: Library\Artifacts\a1\a15ca05d025faf2a9c27ca0c77520202
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a2\a2cf61ffb3c932f6832f28ef99f1934f
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\a2\a2cf61ffb3c932f6832f28ef99f1934f
+    projectPath: Library\Artifacts\a2\a2cf61ffb3c932f6832f28ef99f1934f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a6\a6ced49fa57abde9d63b6d02e34cb2d7
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\a6\a6ced49fa57abde9d63b6d02e34cb2d7
+    projectPath: Library\Artifacts\a6\a6ced49fa57abde9d63b6d02e34cb2d7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ab\ab6ae0889ffe0cbe3559321659cf75ab
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ab\ab6ae0889ffe0cbe3559321659cf75ab
+    projectPath: Library\Artifacts\ab\ab6ae0889ffe0cbe3559321659cf75ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ac\ac05a644abd94eaada4360016d3ccf3d
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ac\ac05a644abd94eaada4360016d3ccf3d
+    projectPath: Library\Artifacts\ac\ac05a644abd94eaada4360016d3ccf3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ae\aee72632121347e77ac91400d3070fcf
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ae\aee72632121347e77ac91400d3070fcf
+    projectPath: Library\Artifacts\ae\aee72632121347e77ac91400d3070fcf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b0\b0eea322b8a1a40bd206c5924a9b9d2b
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\b0\b0eea322b8a1a40bd206c5924a9b9d2b
+    projectPath: Library\Artifacts\b0\b0eea322b8a1a40bd206c5924a9b9d2b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b3\b3c71ac59fe02a2502d14bdb4d90e7e2
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\b3\b3c71ac59fe02a2502d14bdb4d90e7e2
+    projectPath: Library\Artifacts\b3\b3c71ac59fe02a2502d14bdb4d90e7e2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b7\b7a8e1a285c4175135ec77f524d14003
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\b7\b7a8e1a285c4175135ec77f524d14003
+    projectPath: Library\Artifacts\b7\b7a8e1a285c4175135ec77f524d14003
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ba\ba3220a719bb02079a2f3deed27f666f
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ba\ba3220a719bb02079a2f3deed27f666f
+    projectPath: Library\Artifacts\ba\ba3220a719bb02079a2f3deed27f666f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bf\bf1ddcd1a116e061944275476e6b0521
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\bf\bf1ddcd1a116e061944275476e6b0521
+    projectPath: Library\Artifacts\bf\bf1ddcd1a116e061944275476e6b0521
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c4\c4db93fdd583db4f3d28709face2498b
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\c4\c4db93fdd583db4f3d28709face2498b
+    projectPath: Library\Artifacts\c4\c4db93fdd583db4f3d28709face2498b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ca\ca48e66f7a5e0e4171eeaf927416051f
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ca\ca48e66f7a5e0e4171eeaf927416051f
+    projectPath: Library\Artifacts\ca\ca48e66f7a5e0e4171eeaf927416051f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d0\d081245c0138fc0c75eb77296117108a
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\d0\d081245c0138fc0c75eb77296117108a
+    projectPath: Library\Artifacts\d0\d081245c0138fc0c75eb77296117108a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d2\d22ecb943a9fb4d0d5846ec0f76d58f9
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\d2\d22ecb943a9fb4d0d5846ec0f76d58f9
+    projectPath: Library\Artifacts\d2\d22ecb943a9fb4d0d5846ec0f76d58f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d3\d3a32f2457268f3ff3de45690722be57
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\d3\d3a32f2457268f3ff3de45690722be57
+    projectPath: Library\Artifacts\d3\d3a32f2457268f3ff3de45690722be57
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d9\d9b704d81f3b3c88930857d38c7288fa
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\d9\d9b704d81f3b3c88930857d38c7288fa
+    projectPath: Library\Artifacts\d9\d9b704d81f3b3c88930857d38c7288fa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\da\da361f4b352310ea2b86bef08960d8fc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\da\da361f4b352310ea2b86bef08960d8fc
+    projectPath: Library\Artifacts\da\da361f4b352310ea2b86bef08960d8fc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\dc\dc1a55580050947337f1791d715db96a
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\dc\dc1a55580050947337f1791d715db96a
+    projectPath: Library\Artifacts\dc\dc1a55580050947337f1791d715db96a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\df\df3ce93852466c2b3328b4f1ea8491e7
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\df\df3ce93852466c2b3328b4f1ea8491e7
+    projectPath: Library\Artifacts\df\df3ce93852466c2b3328b4f1ea8491e7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e2\e2393daf67eb4acefa28a53d44f8ba56
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\e2\e2393daf67eb4acefa28a53d44f8ba56
+    projectPath: Library\Artifacts\e2\e2393daf67eb4acefa28a53d44f8ba56
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e6\e6a7dd8108c2aa34463a3b8c746ab773
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\e6\e6a7dd8108c2aa34463a3b8c746ab773
+    projectPath: Library\Artifacts\e6\e6a7dd8108c2aa34463a3b8c746ab773
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\eb\eb347197c41e7b47fd827e448d052485
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\eb\eb347197c41e7b47fd827e448d052485
+    projectPath: Library\Artifacts\eb\eb347197c41e7b47fd827e448d052485
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ec\ecc27f9f6e2093dafa8ec9236ae8274e
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ec\ecc27f9f6e2093dafa8ec9236ae8274e
+    projectPath: Library\Artifacts\ec\ecc27f9f6e2093dafa8ec9236ae8274e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ed\ed81a32b50d2a3b974de20076cc8bdab
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ed\ed81a32b50d2a3b974de20076cc8bdab
+    projectPath: Library\Artifacts\ed\ed81a32b50d2a3b974de20076cc8bdab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f3\f34319f4d12ed93064f2b0b0ee371b26
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\f3\f34319f4d12ed93064f2b0b0ee371b26
+    projectPath: Library\Artifacts\f3\f34319f4d12ed93064f2b0b0ee371b26
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ff\ff9e1eaf98d33c58363e55466efbd19b
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\Artifacts\ff\ff9e1eaf98d33c58363e55466efbd19b
+    projectPath: Library\Artifacts\ff\ff9e1eaf98d33c58363e55466efbd19b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\gfu\cache\branches.yaml
@@ -65,10 +807,108 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\SceneVisibilityState.asset
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SourceAssetDB
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
+    projectPath: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
+    projectPath: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker0.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Logs\AssetImportWorker0.log
+    projectPath: Logs\AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker0-prev.log
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\Logs\AssetImportWorker0-prev.log
+    projectPath: Logs\AssetImportWorker0-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

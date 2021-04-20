@@ -22,6 +22,7 @@ public class Icons : MonoBehaviour
     int currentLetter = 0;
     bool first = true;
     bool entered = false;
+    public int z = -4;
 
     //FMOD
     private EventInstance appear;
@@ -58,7 +59,7 @@ public class Icons : MonoBehaviour
             if (chat.CompareTag("Thought") && chatBubble == null)
             {
                 //Format in corner of screen
-                chat.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(new Vector2(Screen.height, Screen.width)).x + 3, Camera.main.ScreenToWorldPoint(new Vector2(Screen.height, Screen.width)).y + 3, -4);
+                chat.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(new Vector2(Screen.height, Screen.width)).x + 3, Camera.main.ScreenToWorldPoint(new Vector2(Screen.height, Screen.width)).y + 3, z);
                 chatBubble = Instantiate(thought);
                 chatBubble.transform.parent = chat.transform;
                 chatBubble.transform.position = chat.transform.position + new Vector3(0, -0.8f); //Chat bubble format

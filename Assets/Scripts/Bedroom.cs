@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using FMOD.Studio;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Bedroom : MonoBehaviour
@@ -22,6 +23,8 @@ public class Bedroom : MonoBehaviour
     bool once = false;
     bool exiting = false;
     bool initial = false;
+    bool leaving = false;
+    bool left = false;
 
     //Frame counters
     float openingFrames = 0;
@@ -36,9 +39,11 @@ public class Bedroom : MonoBehaviour
     //FMOD
     private EventInstance drips;
     private EventInstance helpHead;
+    private EventInstance doorOpen;
     public float helpParam;
     private PLAYBACK_STATE currentState;
     private PLAYBACK_STATE currentHeadState;
+    private PLAYBACK_STATE doorState;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +52,7 @@ public class Bedroom : MonoBehaviour
         darkBG.GetComponent<SpriteRenderer>().color = new Color(darkBG.GetComponent<SpriteRenderer>().color.r, darkBG.GetComponent<SpriteRenderer>().color.g, darkBG.GetComponent<SpriteRenderer>().color.b, 0);
         drips = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/TearsFalling"); //Grab sound
         helpHead = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Helping Head");
+        doorOpen = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/DoorOpen");
         helpHead.setParameterByName("CloseToDoor", 0);
     }
 
@@ -55,6 +61,7 @@ public class Bedroom : MonoBehaviour
     {
         helpHead.getParameterByName("CloseToDoor", out helpParam);
         helpHead.getPlaybackState(out currentHeadState);
+        doorOpen.getPlaybackState(out doorState);
 
         if(currentHeadState != PLAYBACK_STATE.PLAYING && !exiting)
         {
@@ -232,5 +239,21 @@ public class Bedroom : MonoBehaviour
 
         //Return the array of individual letters to write out
         return text;
+    }
+
+    //Method to leave room
+    public void LeaveRoom()
+    {
+        //Play sound
+        exiting = true;
+        doorOpen.start();
+        helpHead.stop(STOP_MODE.ALLOWFADEOUT);
+
+        //If sound is over
+        if(doorState != PLAYBACK_STATE.PLAYING)
+        {
+            //Load next scene
+            SceneManager.LoadScene("CityStreet1");
+        }
     }
 }
