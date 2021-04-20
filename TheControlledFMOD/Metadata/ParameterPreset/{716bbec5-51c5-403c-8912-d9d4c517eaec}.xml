@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{716bbec5-51c5-403c-8912-d9d4c517eaec}">
+		<property name="name">
+			<value>ExtraChatter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf27597f-82ab-4edd-956a-81823147c515}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d179c2e0-9ec7-486e-9e3b-fbc581fa3dbe}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d179c2e0-9ec7-486e-9e3b-fbc581fa3dbe}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

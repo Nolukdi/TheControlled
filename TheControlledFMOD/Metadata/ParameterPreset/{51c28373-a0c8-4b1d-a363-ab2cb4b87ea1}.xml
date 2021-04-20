@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{51c28373-a0c8-4b1d-a363-ab2cb4b87ea1}">
+		<property name="name">
+			<value>TrainComing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf27597f-82ab-4edd-956a-81823147c515}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fdd002ea-e1a5-4be9-a771-ea61f173cf7b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fdd002ea-e1a5-4be9-a771-ea61f173cf7b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

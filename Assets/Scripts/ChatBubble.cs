@@ -14,13 +14,7 @@ public class ChatBubble : MonoBehaviour
     {
         enter = FMODUnity.RuntimeManager.CreateInstance("event:/UI/ChatBubble");
         enter.setVolume(0.5f);
-
-        //If not already playing
-        if(currentState != PLAYBACK_STATE.PLAYING)
-        {
-            //Play
-            enter.start();
-        }
+        enter.start();
     }
 
     // Update is called once per frame

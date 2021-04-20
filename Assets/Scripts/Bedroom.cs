@@ -13,15 +13,18 @@ public class Bedroom : MonoBehaviour
     public GameObject eliCry; //Eli crying anim
     public GameObject eli;  //Main character
     public GameObject chat; //Chat bubble prefab
+    public GameObject thought; //Thought bubble prefab
     GameObject chatBubble; //Temporary variable
 
     //Booleans
-    bool isOpening = true;
+    static bool isOpening = true;
     bool first = false;
     bool once = false;
+    bool exiting = false;
+    bool initial = false;
 
     //Frame counters
-    int openingFrames = 0;
+    float openingFrames = 0;
 
     //Chats
     public GameObject[] openingChat = new GameObject[9]; //Script array
@@ -32,7 +35,10 @@ public class Bedroom : MonoBehaviour
 
     //FMOD
     private EventInstance drips;
+    private EventInstance helpHead;
+    public float helpParam;
     private PLAYBACK_STATE currentState;
+    private PLAYBACK_STATE currentHeadState;
 
     // Start is called before the first frame update
     void Start()
@@ -40,11 +46,36 @@ public class Bedroom : MonoBehaviour
         //Make dark invisible
         darkBG.GetComponent<SpriteRenderer>().color = new Color(darkBG.GetComponent<SpriteRenderer>().color.r, darkBG.GetComponent<SpriteRenderer>().color.g, darkBG.GetComponent<SpriteRenderer>().color.b, 0);
         drips = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/TearsFalling"); //Grab sound
+        helpHead = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Helping Head");
+        helpHead.setParameterByName("CloseToDoor", 0);
     }
 
     // Update is called once per frame
     void Update()
     {
+        helpHead.getParameterByName("CloseToDoor", out helpParam);
+        helpHead.getPlaybackState(out currentHeadState);
+
+        if(currentHeadState != PLAYBACK_STATE.PLAYING && !exiting)
+        {
+            //Play song on loop
+            helpHead.start();
+        }
+
+        //If the player away from toward the door (and the parameter is still loud)
+        if(Input.GetKey(KeyCode.D) && helpParam > 0)
+        {
+            //Decrease
+            helpHead.setParameterByName("CloseToDoor", helpParam - 0.0005f);
+        }
+
+        //If the player moves toward the door (and the parameter isn't at max)
+        if(Input.GetKey(KeyCode.A) && helpParam < 1)
+        {
+            //Increase parameter value
+            helpHead.setParameterByName("CloseToDoor", helpParam + 0.0005f);
+        }
+
         //If this is the opening scene
         if(isOpening)
         {
@@ -80,11 +111,22 @@ public class Bedroom : MonoBehaviour
                 currentText = "".ToCharArray(); //Empty chat
             }
 
-            //If not playing already
-            if (currentState != PLAYBACK_STATE.PLAYING)
+            //If first drip and enough time has passed
+            if (!initial && openingFrames > 0.5f)
             {
                 //Trigger sound
                 drips.start();
+                openingFrames = 0;
+                initial = true;
+            }
+
+            //If not first drip
+            else if(initial && openingFrames > 2.8f)
+            {
+                //Trigger sound
+                drips.start();
+                openingFrames = 0;
+                initial = true;
             }
 
 
@@ -147,7 +189,7 @@ public class Bedroom : MonoBehaviour
             }
 
             //Every 5 frames (if the current letter is still in the array)
-            if (openingFrames % 5 == 0 && currentLetter < currentText.Length)
+            if ((openingFrames % 0.025f >= 0 && openingFrames % 0.025f <= 0.01) && currentLetter < currentText.Length)
             {
                 //Add the next letter to the string and send it to the text
                 newText += currentText[currentLetter].ToString();
@@ -156,7 +198,7 @@ public class Bedroom : MonoBehaviour
             }
 
             //Increment frames
-            openingFrames++;
+            openingFrames += Time.deltaTime;
         }
     }
 
@@ -175,7 +217,16 @@ public class Bedroom : MonoBehaviour
         {
             //Format in corner of screen
             chats[currentOpenChat].transform.position = eli.transform.position + new Vector3(3, 4);
-            chatBubble = Instantiate(chat); //CHANGE TO THOUGHT BUBBLE
+            chatBubble = Instantiate(thought);
+            chatBubble.transform.position = chats[currentOpenChat].transform.position + new Vector3(0, -0.585f); //Thought bubble format
+        }
+
+        //If the chat is eli speaking
+        else if (chats[currentOpenChat].CompareTag("EliChat"))
+        {
+            //Formats near eli
+            chats[currentOpenChat].transform.position = eli.transform.position + new Vector3(1, 2);
+            chatBubble = Instantiate(chat);
             chatBubble.transform.position = chats[currentOpenChat].transform.position + new Vector3(0, -0.8f); //Chat bubble format
         }
 

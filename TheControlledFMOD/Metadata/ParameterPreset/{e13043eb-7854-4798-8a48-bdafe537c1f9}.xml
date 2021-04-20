@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{e13043eb-7854-4798-8a48-bdafe537c1f9}">
+		<property name="name">
+			<value>TrainDistance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf27597f-82ab-4edd-956a-81823147c515}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c30898c7-ea60-40d1-94ba-17a15ff979d9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c30898c7-ea60-40d1-94ba-17a15ff979d9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

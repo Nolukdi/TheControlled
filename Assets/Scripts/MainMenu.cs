@@ -41,6 +41,8 @@ public class MainMenu : MonoBehaviour
 
         lightClick = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/MenuChange"); //Grab sound
         theInvest = FMODUnity.RuntimeManager.CreateInstance("event:/Music/The Investigation");
+        //Play it
+        theInvest.start();
     }
 
     // Update is called once per frame
@@ -49,13 +51,6 @@ public class MainMenu : MonoBehaviour
         //Get sfx states
         lightClick.getPlaybackState(out currentState);
         theInvest.getPlaybackState(out currentSong);
-
-        //If the song isn't playing
-        if(currentSong != PLAYBACK_STATE.PLAYING)
-        {
-            //Play it
-            theInvest.start();
-        }
 
         //If the menus are changing
         if (changing)

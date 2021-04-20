@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{e4269578-2b81-41de-84c9-65c4094aaf80}">
+		<property name="name">
+			<value>CloseToDoor</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf27597f-82ab-4edd-956a-81823147c515}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{64b26fcf-d154-4760-a31a-126e44fe9536}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{64b26fcf-d154-4760-a31a-126e44fe9536}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

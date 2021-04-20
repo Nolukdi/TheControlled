@@ -59,11 +59,13 @@
     <Compile Include="Assets\Scripts\Bedroom.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Icons.cs" />
+    <Compile Include="Assets\Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ChatBubble.cs" />
     <Compile Include="Assets\Scripts\Prompts.cs" />
-    <Compile Include="Assets\Scripts\Buttons.cs" />
+    <Compile Include="Assets\Scripts\Train.cs" />
+    <Compile Include="Assets\Scripts\CityStreet1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
