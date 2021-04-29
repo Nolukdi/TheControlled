@@ -61,13 +61,18 @@
     <Compile Include="Assets\Scripts\Icons.cs" />
     <Compile Include="Assets\Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Calla.cs" />
     <Compile Include="Assets\Scripts\Leave.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Chatcons.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\WaitToAppear.cs" />
     <Compile Include="Assets\Scripts\ChatBubble.cs" />
     <Compile Include="Assets\Scripts\Prompts.cs" />
     <Compile Include="Assets\Scripts\Train.cs" />
+    <Compile Include="Assets\Scripts\Jay.cs" />
     <Compile Include="Assets\Scripts\CityStreet1.cs" />
-    <Compile Include="Assets\Scripts\WaitToAppear.cs" />
+    <Compile Include="Assets\Scripts\Opponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

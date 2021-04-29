@@ -43,9 +43,9 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2764831171156245663}
-  - {fileID: -222078268052561467}
-  - {fileID: 162955273012759072}
+  - {fileID: 3147967591889843942}
+  - {fileID: 745004883711218563}
+  - {fileID: 3303039122270267661}
   MinDistance: 0
   MaxDistance: 0
   Length: 17186
@@ -112,7 +112,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 2381652071433886448}
+  - {fileID: -7687967583220163271}
   MinDistance: 0
   MaxDistance: 0
   Length: 298684
@@ -136,6 +136,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-7687967583220163271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Helping Head/CloseToDoor
+  m_EditorClassIdentifier: 
+  Name: CloseToDoor
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7671013893866885870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,6 +236,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6230246847805001233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City/TrainComing
+  m_EditorClassIdentifier: 
+  Name: TrainComing
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-6051525218186663310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,7 +311,7 @@ MonoBehaviour:
   Path: TheControlledFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637544768808284132
+  lastModified: 637553208114555607
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -521,6 +561,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-2938750327581645373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City/TrainDistance
+  m_EditorClassIdentifier: 
+  Name: TrainDistance
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-2726451208146206299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,6 +664,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-1756185297400765652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/Punch1Hit
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/Punch1Hit
+  guid: a607efd84e1e2a458b0b251af15ee81a
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-590198271826400358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,7 +766,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,13 +794,17 @@ MonoBehaviour:
   - {fileID: -8006370633846497812}
   - {fileID: -8502634981271995879}
   - {fileID: -5480604197498408084}
+  - {fileID: 5223014184934231946}
+  - {fileID: -1756185297400765652}
+  - {fileID: 5030006631098103941}
+  - {fileID: 2487479955994499902}
   EditorParameters:
   - {fileID: 5694246660169034020}
   MasterBanks:
   - {fileID: -5923635402057766313}
   StringsBanks:
   - {fileID: 3723588019039024856}
-  stringsBankWriteTime: 637544768808343974
+  stringsBankWriteTime: 637553208114635395
   cacheVersion: 6
 --- !u!114 &162955273012759072
 MonoBehaviour:
@@ -738,7 +825,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &615073520232883519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,6 +886,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &745004883711218563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City/TrainComing
+  m_EditorClassIdentifier: 
+  Name: TrainComing
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1305914535832723048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,6 +986,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2367685492098256036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Helping Head/CloseToDoor
+  m_EditorClassIdentifier: 
+  Name: CloseToDoor
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &2381652071433886448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,7 +1025,30 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &2487479955994499902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/Punch3Miss
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/Punch3Miss
+  guid: ebd26204da26e143a57da98591ceb890
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 331
 --- !u!114 &2589237950710480790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -938,7 +1088,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2792946246573448440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,7 +1220,47 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &3147967591889843942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City/TrainDistance
+  m_EditorClassIdentifier: 
+  Name: TrainDistance
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3293087208670802838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City/ExtraChatter
+  m_EditorClassIdentifier: 
+  Name: ExtraChatter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &3303039122270267661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1105,11 +1295,11 @@ MonoBehaviour:
   Path: TheControlledFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637544768808343974
+  lastModified: 637553208114635395
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1698
+    Value: 1892
   Exists: 1
 --- !u!114 &4260845877317317606
 MonoBehaviour:
@@ -1153,6 +1343,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5030006631098103941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/Punch1Miss
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/Punch1Miss
+  guid: e674e69c63a9764d92e08ff14ebba59f
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 116
+--- !u!114 &5223014184934231946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/Punch3Hit
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/Punch3Hit
+  guid: 78da306dca77bc4a87510305c87c5c9e
+  Banks:
+  - {fileID: -5923635402057766313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5230360515803374973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,6 +1412,26 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 0
 --- !u!114 &5294985034540892621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City/ExtraChatter
+  m_EditorClassIdentifier: 
+  Name: ExtraChatter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &5317850506753306501
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1338,6 +1594,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &8771681830609183560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/FightSounds
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/FightSounds
+  guid: 276c88988ace2443bb6f554fc4d4e597
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2055
 --- !u!114 &9205859016891662743
 MonoBehaviour:
   m_ObjectHideFlags: 0

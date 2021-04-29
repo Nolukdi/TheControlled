@@ -9,6 +9,11 @@ TagManager:
   - Chatcon
   - Thought
   - EliChat
+  - Choice
+  - ChatBubble
+  - OtherChat
+  - Calla
+  - Jay
   layers:
   - Default
   - TransparentFX

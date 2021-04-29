@@ -16,6 +16,7 @@ public class Bedroom : MonoBehaviour
     public GameObject chat; //Chat bubble prefab
     public GameObject thought; //Thought bubble prefab
     GameObject chatBubble; //Temporary variable
+    public GameObject pauseMenu;
 
     //Booleans
     static bool isOpening = true;
@@ -23,8 +24,6 @@ public class Bedroom : MonoBehaviour
     bool once = false;
     bool exiting = false;
     bool initial = false;
-    bool leaving = false;
-    bool left = false;
 
     //Frame counters
     float openingFrames = 0;
@@ -59,10 +58,33 @@ public class Bedroom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If paused
+        if(pauseMenu.GetComponent<PauseMenu>().paused)
+        {
+            //Pause effects
+            helpHead.setPaused(true);
+            drips.setPaused(true);
+        }
+
+        //If not
+        else
+        {
+            //Unpause effects
+            helpHead.setPaused(false);
+            drips.setPaused(false);
+        }
+
+        //Gets parameters and current states
         helpHead.getParameterByName("CloseToDoor", out helpParam);
         helpHead.getPlaybackState(out currentHeadState);
         doorOpen.getPlaybackState(out doorState);
 
+        //Sets volumes
+        drips.setVolume(MainMenu.sfxVol);
+        helpHead.setVolume(MainMenu.musicVol);
+        doorOpen.setVolume(MainMenu.sfxVol);
+
+        //If song isn't playing
         if(currentHeadState != PLAYBACK_STATE.PLAYING && !exiting)
         {
             //Play song on loop
@@ -254,6 +276,21 @@ public class Bedroom : MonoBehaviour
         {
             //Load next scene
             SceneManager.LoadScene("CityStreet1");
+        }
+    }
+
+    public void FightingRing()
+    {
+        //Play sound
+        exiting = true;
+        doorOpen.start();
+        helpHead.stop(STOP_MODE.ALLOWFADEOUT);
+
+        //If sound is over
+        if (doorState != PLAYBACK_STATE.PLAYING)
+        {
+            //Load next scene
+            SceneManager.LoadScene("FightingArena");
         }
     }
 }

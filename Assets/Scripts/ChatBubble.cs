@@ -9,6 +9,9 @@ public class ChatBubble : MonoBehaviour
     private EventInstance enter;
     private PLAYBACK_STATE currentState = PLAYBACK_STATE.STOPPED;
 
+    //Tracking
+    public bool chosen = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +25,10 @@ public class ChatBubble : MonoBehaviour
     {
         //Get if alreadying playing
         enter.getPlaybackState(out currentState);
+    }
+
+    public void OnMouseDown()
+    {
+        chosen = true;
     }
 }

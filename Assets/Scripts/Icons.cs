@@ -69,7 +69,7 @@ public class Icons : MonoBehaviour
             {
                 //Format in corner of screen
                 chat.transform.position = eli.transform.position + new Vector3(5, 4.5f);
-                chatBubble = Instantiate(eliChatImage); //CHANGE TO THOUGHT BUBBLE
+                chatBubble = Instantiate(eliChatImage);
                 chatBubble.transform.parent = chat.transform;
                 chatBubble.transform.position = chat.transform.position + new Vector3(0, -0.8f); //Chat bubble format
             }

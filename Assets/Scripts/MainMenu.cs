@@ -7,16 +7,23 @@ using FMOD.Studio;
 
 public class MainMenu : MonoBehaviour
 {
+    //Option values
+    public static float sfxVol = 1;
+    public static float musicVol = 1;
+
     //Backgrounds
     public GameObject greenBG;
     public GameObject redBG;
 
     //GameObjects
     public GameObject cord;
+    public Slider music;
+    public Slider sfx;
 
     //Menus
     public GameObject mainMenu;
     public GameObject optionsMenu;
+    public GameObject audioMenu;
 
     //Tracking
     public bool changing = false;
@@ -38,9 +45,11 @@ public class MainMenu : MonoBehaviour
         redBG.SetActive(false);
         optionsMenu.SetActive(false);
         mainMenu.SetActive(true);
+        audioMenu.SetActive(false);
 
         lightClick = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/MenuChange"); //Grab sound
         theInvest = FMODUnity.RuntimeManager.CreateInstance("event:/Music/The Investigation");
+
         //Play it
         theInvest.start();
     }
@@ -51,6 +60,10 @@ public class MainMenu : MonoBehaviour
         //Get sfx states
         lightClick.getPlaybackState(out currentState);
         theInvest.getPlaybackState(out currentSong);
+
+        //Update sound effect levels
+        lightClick.setVolume(sfxVol);
+        theInvest.setVolume(musicVol);
 
         //If the menus are changing
         if (changing)
@@ -134,6 +147,34 @@ public class MainMenu : MonoBehaviour
         cord.GetComponent<Animator>().SetBool("changeMenu", true);
         changing = true;
         options = false;
+    }
+
+    //Opens audio menu
+    public void Audio()
+    {
+        //Change to audio menu
+        audioMenu.SetActive(true);
+        optionsMenu.SetActive(false);
+    }
+
+    //Closes audio menu
+    public void AudioBack()
+    {
+        //Change out of audio menu
+        audioMenu.SetActive(false);
+        optionsMenu.SetActive(true);
+    }
+
+    //Applies sfx settings
+    public void SFXSlider()
+    {
+        sfxVol = sfx.value;
+    }
+
+    //Applies music settings
+    public void MusicSlider()
+    {
+        musicVol = music.value;
     }
 
     //Exit game

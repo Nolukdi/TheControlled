@@ -20,6 +20,7 @@ public class Buttons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        mouseOver.setVolume(MainMenu.sfxVol);
         mouseOver.getPlaybackState(out currentState);
     }
 
