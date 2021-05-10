@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-29T19:58:33.740-04:00
-  initializedAtString: 2021-04-29T19:58:33.740-04:00
+  lastUpdatedAtString: 2021-05-09T21:55:03.053-04:00
+  initializedAtString: 2021-05-09T20:05:17.250-04:00
   entries:
   - path: .vs\The Controlled\v16\.suo
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
@@ -44,192 +44,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Anim\Chatcon.controller
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Anim\Chatcon.controller
-    projectPath: Assets\Anim\Chatcon.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Anim\Chatcon.controller.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Anim\Chatcon.controller.meta
-    projectPath: Assets\Anim\Chatcon.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Anim\ChatconEnter.anim
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Anim\ChatconEnter.anim
-    projectPath: Assets\Anim\ChatconEnter.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Anim\ChatconEnter.anim.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Anim\ChatconEnter.anim.meta
-    projectPath: Assets\Anim\ChatconEnter.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Anim\ChatconLeave.anim
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Anim\ChatconLeave.anim
-    projectPath: Assets\Anim\ChatconLeave.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Anim\ChatconLeave.anim.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Anim\ChatconLeave.anim.meta
-    projectPath: Assets\Anim\ChatconLeave.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\Backgrounds.psd
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\Backgrounds.psd
-    projectPath: Assets\Images\Backgrounds.psd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Images\Calla.png
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\Calla.png
-    projectPath: Assets\Images\Calla.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\Calla.png.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\Calla.png.meta
-    projectPath: Assets\Images\Calla.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\Calla.psd
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\Calla.psd
-    projectPath: Assets\Images\Calla.psd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\Calla.psd.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\Calla.psd.meta
-    projectPath: Assets\Images\Calla.psd.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\EliBedroom.psd
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\EliBedroom.psd
-    projectPath: Assets\Images\EliBedroom.psd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Images\EliBedroom\EliBedroomFiles.png
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\EliBedroom\EliBedroomFiles.png
-    projectPath: Assets\Images\EliBedroom\EliBedroomFiles.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\EliBedroom\EliBedroomFiles.png.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\EliBedroom\EliBedroomFiles.png.meta
-    projectPath: Assets\Images\EliBedroom\EliBedroomFiles.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\EliBedroom\EliBedroomp.png
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\EliBedroom\EliBedroomp.png
-    projectPath: Assets\Images\EliBedroom\EliBedroomp.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\EliBedroom\EliBedroomp.png.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\EliBedroom\EliBedroomp.png.meta
-    projectPath: Assets\Images\EliBedroom\EliBedroomp.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\EliBedroom\EliBedroomPhoto.png
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\EliBedroom\EliBedroomPhoto.png
-    projectPath: Assets\Images\EliBedroom\EliBedroomPhoto.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Images\PauseMenu.png
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\PauseMenu.png
-    projectPath: Assets\Images\PauseMenu.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Images\PauseMenu.png.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Images\PauseMenu.png.meta
-    projectPath: Assets\Images\PauseMenu.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
     projectPath: Assets\Plugins\FMOD\Cache\Editor\FMODStudioCache.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Chat.prefab
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Prefabs\Chat.prefab
-    projectPath: Assets\Prefabs\Chat.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Chatcon.prefab
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Prefabs\Chatcon.prefab
-    projectPath: Assets\Prefabs\Chatcon.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Chatcon.prefab.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Prefabs\Chatcon.prefab.meta
-    projectPath: Assets\Prefabs\Chatcon.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\PauseMenu.prefab
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Prefabs\PauseMenu.prefab
-    projectPath: Assets\Prefabs\PauseMenu.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\PauseMenu.prefab.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Prefabs\PauseMenu.prefab.meta
-    projectPath: Assets\Prefabs\PauseMenu.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Thought.prefab
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Prefabs\Thought.prefab
-    projectPath: Assets\Prefabs\Thought.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -240,34 +58,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\EliBedroom.unity
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scenes\EliBedroom.unity
-    projectPath: Assets\Scenes\EliBedroom.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\FightingArena.unity
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scenes\FightingArena.unity
-    projectPath: Assets\Scenes\FightingArena.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\MainMenu.unity
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scenes\MainMenu.unity
-    projectPath: Assets\Scenes\MainMenu.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Bedroom.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Bedroom.cs
-    projectPath: Assets\Scripts\Bedroom.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Scripts\Buttons.cs
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Assets\Scripts\Buttons.cs
@@ -275,41 +65,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Calla.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Calla.cs
-    projectPath: Assets\Scripts\Calla.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Calla.cs.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Calla.cs.meta
-    projectPath: Assets\Scripts\Calla.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\ChatBubble.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\ChatBubble.cs
-    projectPath: Assets\Scripts\ChatBubble.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Chatcons.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Chatcons.cs
-    projectPath: Assets\Scripts\Chatcons.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Chatcons.cs.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Chatcons.cs.meta
-    projectPath: Assets\Scripts\Chatcons.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Scripts\CityStreet1.cs
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Assets\Scripts\CityStreet1.cs
@@ -317,62 +72,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Icons.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Icons.cs
-    projectPath: Assets\Scripts\Icons.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Jay.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Jay.cs
-    projectPath: Assets\Scripts\Jay.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Jay.cs.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Jay.cs.meta
-    projectPath: Assets\Scripts\Jay.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\MainMenu.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\MainMenu.cs
-    projectPath: Assets\Scripts\MainMenu.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Opponent.cs
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Opponent.cs
-    projectPath: Assets\Scripts\Opponent.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Opponent.cs.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\Opponent.cs.meta
-    projectPath: Assets\Scripts\Opponent.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Scripts\PauseMenu.cs
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Assets\Scripts\PauseMenu.cs
     projectPath: Assets\Scripts\PauseMenu.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\PauseMenu.cs.meta
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Assets\Scripts\PauseMenu.cs.meta
-    projectPath: Assets\Scripts\PauseMenu.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\PlayerController.cs
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Assets\Scripts\PlayerController.cs
@@ -408,111 +114,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\07\07f10d4fbf7eac144c9f77c3b7e60f1b
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\07\07f10d4fbf7eac144c9f77c3b7e60f1b
-    projectPath: Library\Artifacts\07\07f10d4fbf7eac144c9f77c3b7e60f1b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-    projectPath: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\16\16ca905e0433e14aa20db1febe62df3d
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\16\16ca905e0433e14aa20db1febe62df3d
-    projectPath: Library\Artifacts\16\16ca905e0433e14aa20db1febe62df3d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-    projectPath: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-    projectPath: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\40\40b2bc9f9250f6d61aa9272f9639a818
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\40\40b2bc9f9250f6d61aa9272f9639a818
-    projectPath: Library\Artifacts\40\40b2bc9f9250f6d61aa9272f9639a818
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\43\434044d405eea2b9ef3c3307fbf6033e
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\43\434044d405eea2b9ef3c3307fbf6033e
-    projectPath: Library\Artifacts\43\434044d405eea2b9ef3c3307fbf6033e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\66\66824631edada7446b4a3e3d8212babe
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\66\66824631edada7446b4a3e3d8212babe
-    projectPath: Library\Artifacts\66\66824631edada7446b4a3e3d8212babe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-    projectPath: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-    projectPath: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\97\974bc9b6176ac445d4bea264252da96e
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\97\974bc9b6176ac445d4bea264252da96e
-    projectPath: Library\Artifacts\97\974bc9b6176ac445d4bea264252da96e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a7\a728d4edbbea49b490b4131142da31d6
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\a7\a728d4edbbea49b490b4131142da31d6
-    projectPath: Library\Artifacts\a7\a728d4edbbea49b490b4131142da31d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c0\c06e26b2a664030c0f6f8159c8575edf
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\c0\c06e26b2a664030c0f6f8159c8575edf
-    projectPath: Library\Artifacts\c0\c06e26b2a664030c0f6f8159c8575edf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dd\ddf1298a79b6c0f7106f1a9f238375e4
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\dd\ddf1298a79b6c0f7106f1a9f238375e4
-    projectPath: Library\Artifacts\dd\ddf1298a79b6c0f7106f1a9f238375e4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f7\f74eb8baa72b4676bd99272a3fc6ea45
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\Artifacts\f7\f74eb8baa72b4676bd99272a3fc6ea45
-    projectPath: Library\Artifacts\f7\f74eb8baa72b4676bd99272a3fc6ea45
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\CurrentLayout-default.dwlt
@@ -576,20 +177,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\SceneVisibilityState.asset
@@ -608,34 +195,6 @@ MonoBehaviour:
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -660,80 +219,143 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Logs\ApiUpdaterCheck.txt
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\Logs\ApiUpdaterCheck.txt
-    projectPath: Logs\ApiUpdaterCheck.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Logs\AssetImportWorker0.log
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Logs\AssetImportWorker0-prev.log
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    workTreeStatus: 5
+  - path: TheControlledFMOD\.cache\{1530c20d-20c8-46f0-8991-87c03e517cbd}.pdc
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      Controlled\TheControlledFMOD\.cache\{1530c20d-20c8-46f0-8991-87c03e517cbd}.pdc
+    projectPath: TheControlledFMOD\.cache\{1530c20d-20c8-46f0-8991-87c03e517cbd}.pdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\{528fd7bf-ba02-4672-9f08-592290c635ec}.pdc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\{528fd7bf-ba02-4672-9f08-592290c635ec}.pdc
+    projectPath: TheControlledFMOD\.cache\{528fd7bf-ba02-4672-9f08-592290c635ec}.pdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\{86edb9eb-adfc-4e4a-90e8-668c9dd3cb41}.pdc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\{86edb9eb-adfc-4e4a-90e8-668c9dd3cb41}.pdc
+    projectPath: TheControlledFMOD\.cache\{86edb9eb-adfc-4e4a-90e8-668c9dd3cb41}.pdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\{bd63af72-77ab-44c0-8dfa-3d2e8ebc521b}.pdc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\{bd63af72-77ab-44c0-8dfa-3d2e8ebc521b}.pdc
+    projectPath: TheControlledFMOD\.cache\{bd63af72-77ab-44c0-8dfa-3d2e8ebc521b}.pdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\{e197f81f-706b-4075-af52-2b048d22b79f}.pdc
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\{e197f81f-706b-4075-af52-2b048d22b79f}.pdc
+    projectPath: TheControlledFMOD\.cache\{e197f81f-706b-4075-af52-2b048d22b79f}.pdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\fsbcache\Desktop\035B3407.fobj
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\035B3407.fobj
+    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\035B3407.fobj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\fsbcache\Desktop\2DCD9F91.fobj
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\2DCD9F91.fobj
+    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\2DCD9F91.fobj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\fsbcache\Desktop\7AEB9821.fobj
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\7AEB9821.fobj
+    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\7AEB9821.fobj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\fsbcache\Desktop\847D565E.fobj
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\847D565E.fobj
+    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\847D565E.fobj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.cache\fsbcache\Desktop\A65D396F.fobj
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\A65D396F.fobj
+    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\A65D396F.fobj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\.unsaved\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\.unsaved\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
+    projectPath: TheControlledFMOD\.unsaved\.user\Metadata\Asset\{0d49b34d-7196-4065-a625-c7b2b83dd9be}.user.xml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
+    workTreeStatus: 5
+  - path: TheControlledFMOD\.unsaved\.user\Metadata\Mixer.user.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
+      Controlled\TheControlledFMOD\.unsaved\.user\Metadata\Mixer.user.xml
+    projectPath: TheControlledFMOD\.unsaved\.user\Metadata\Mixer.user.xml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: TheControlledFMOD\.cache\{2a5c036a-e1d2-4dee-b20c-5e75a32f7edd}.pdc
+    workTreeStatus: 5
+  - path: TheControlledFMOD\.unsaved\.user\Metadata\Workspace.user.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.cache\{2a5c036a-e1d2-4dee-b20c-5e75a32f7edd}.pdc
-    projectPath: TheControlledFMOD\.cache\{2a5c036a-e1d2-4dee-b20c-5e75a32f7edd}.pdc
+      Controlled\TheControlledFMOD\.unsaved\.user\Metadata\Workspace.user.xml
+    projectPath: TheControlledFMOD\.unsaved\.user\Metadata\Workspace.user.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TheControlledFMOD\Assets\Choice.wav
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Assets\Choice.wav
+    projectPath: TheControlledFMOD\Assets\Choice.wav
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TheControlledFMOD\.cache\{cc6a01ea-d337-4efd-b064-af35baeca048}.pdc
+  - path: TheControlledFMOD\Assets\HitSuccess1.wav
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.cache\{cc6a01ea-d337-4efd-b064-af35baeca048}.pdc
-    projectPath: TheControlledFMOD\.cache\{cc6a01ea-d337-4efd-b064-af35baeca048}.pdc
+      Controlled\TheControlledFMOD\Assets\HitSuccess1.wav
+    projectPath: TheControlledFMOD\Assets\HitSuccess1.wav
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TheControlledFMOD\.cache\fsbcache\Desktop\89BDD0F0.fobj
+  - path: TheControlledFMOD\Assets\HitSuccess2.wav
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\89BDD0F0.fobj
-    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\89BDD0F0.fobj
+      Controlled\TheControlledFMOD\Assets\HitSuccess2.wav
+    projectPath: TheControlledFMOD\Assets\HitSuccess2.wav
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TheControlledFMOD\.cache\fsbcache\Desktop\E61809DE.fobj
+  - path: TheControlledFMOD\Assets\HitSuccess3.wav
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\.cache\fsbcache\Desktop\E61809DE.fobj
-    projectPath: TheControlledFMOD\.cache\fsbcache\Desktop\E61809DE.fobj
+      Controlled\TheControlledFMOD\Assets\HitSuccess3.wav
+    projectPath: TheControlledFMOD\Assets\HitSuccess3.wav
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TheControlledFMOD\Assets\Punch1Success.wav
+  - path: TheControlledFMOD\Assets\MenuClick.wav
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Assets\Punch1Success.wav
-    projectPath: TheControlledFMOD\Assets\Punch1Success.wav
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TheControlledFMOD\Assets\Punch3Success.wav
-    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Assets\Punch3Success.wav
-    projectPath: TheControlledFMOD\Assets\Punch3Success.wav
+      Controlled\TheControlledFMOD\Assets\MenuClick.wav
+    projectPath: TheControlledFMOD\Assets\MenuClick.wav
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -751,17 +373,38 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TheControlledFMOD\Metadata\AudioFile\{2a5c036a-e1d2-4dee-b20c-5e75a32f7edd}.xml
+  - path: TheControlledFMOD\Metadata\AudioFile\{1530c20d-20c8-46f0-8991-87c03e517cbd}.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\AudioFile\{2a5c036a-e1d2-4dee-b20c-5e75a32f7edd}.xml
-    projectPath: TheControlledFMOD\Metadata\AudioFile\{2a5c036a-e1d2-4dee-b20c-5e75a32f7edd}.xml
+      Controlled\TheControlledFMOD\Metadata\AudioFile\{1530c20d-20c8-46f0-8991-87c03e517cbd}.xml
+    projectPath: TheControlledFMOD\Metadata\AudioFile\{1530c20d-20c8-46f0-8991-87c03e517cbd}.xml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TheControlledFMOD\Metadata\AudioFile\{cc6a01ea-d337-4efd-b064-af35baeca048}.xml
+  - path: TheControlledFMOD\Metadata\AudioFile\{528fd7bf-ba02-4672-9f08-592290c635ec}.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-      Controlled\TheControlledFMOD\Metadata\AudioFile\{cc6a01ea-d337-4efd-b064-af35baeca048}.xml
-    projectPath: TheControlledFMOD\Metadata\AudioFile\{cc6a01ea-d337-4efd-b064-af35baeca048}.xml
+      Controlled\TheControlledFMOD\Metadata\AudioFile\{528fd7bf-ba02-4672-9f08-592290c635ec}.xml
+    projectPath: TheControlledFMOD\Metadata\AudioFile\{528fd7bf-ba02-4672-9f08-592290c635ec}.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\AudioFile\{86edb9eb-adfc-4e4a-90e8-668c9dd3cb41}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\AudioFile\{86edb9eb-adfc-4e4a-90e8-668c9dd3cb41}.xml
+    projectPath: TheControlledFMOD\Metadata\AudioFile\{86edb9eb-adfc-4e4a-90e8-668c9dd3cb41}.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\AudioFile\{bd63af72-77ab-44c0-8dfa-3d2e8ebc521b}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\AudioFile\{bd63af72-77ab-44c0-8dfa-3d2e8ebc521b}.xml
+    projectPath: TheControlledFMOD\Metadata\AudioFile\{bd63af72-77ab-44c0-8dfa-3d2e8ebc521b}.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\AudioFile\{e197f81f-706b-4075-af52-2b048d22b79f}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\AudioFile\{e197f81f-706b-4075-af52-2b048d22b79f}.xml
+    projectPath: TheControlledFMOD\Metadata\AudioFile\{e197f81f-706b-4075-af52-2b048d22b79f}.xml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -770,29 +413,155 @@ MonoBehaviour:
       Controlled\TheControlledFMOD\Metadata\Event\{0462d2eb-26da-43e1-a57d-a98591ceb890}.xml
     projectPath: TheControlledFMOD\Metadata\Event\{0462d2eb-26da-43e1-a57d-a98591ceb890}.xml
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{04e6bfd1-cdb4-448b-a0cb-caaa38194ed1}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{04e6bfd1-cdb4-448b-a0cb-caaa38194ed1}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{04e6bfd1-cdb4-448b-a0cb-caaa38194ed1}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{1f7800db-4fce-428f-9a07-d652cad0a596}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{1f7800db-4fce-428f-9a07-d652cad0a596}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{1f7800db-4fce-428f-9a07-d652cad0a596}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{2802785a-f76a-43b3-9c45-077a29e9100b}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{2802785a-f76a-43b3-9c45-077a29e9100b}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{2802785a-f76a-43b3-9c45-077a29e9100b}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{2fb08527-c4d8-47fe-8ba5-c7e527074dcb}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{2fb08527-c4d8-47fe-8ba5-c7e527074dcb}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{2fb08527-c4d8-47fe-8ba5-c7e527074dcb}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{362d9b34-6efc-4ac0-ba13-3cfd9bcf4163}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{362d9b34-6efc-4ac0-ba13-3cfd9bcf4163}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{362d9b34-6efc-4ac0-ba13-3cfd9bcf4163}.xml
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\Event\{483543b2-9c77-46ce-8ae9-03b11ab135a0}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{483543b2-9c77-46ce-8ae9-03b11ab135a0}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{483543b2-9c77-46ce-8ae9-03b11ab135a0}.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\Event\{52bdd88c-e37d-4582-88d6-6584d3b03075}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{52bdd88c-e37d-4582-88d6-6584d3b03075}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{52bdd88c-e37d-4582-88d6-6584d3b03075}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{63b49571-cd9f-4058-9ccb-256c10c9b6e3}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{63b49571-cd9f-4058-9ccb-256c10c9b6e3}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{63b49571-cd9f-4058-9ccb-256c10c9b6e3}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TheControlledFMOD\Metadata\Event\{6d30da78-77ca-4abc-8751-0305c87c5c9e}.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\TheControlledFMOD\Metadata\Event\{6d30da78-77ca-4abc-8751-0305c87c5c9e}.xml
     projectPath: TheControlledFMOD\Metadata\Event\{6d30da78-77ca-4abc-8751-0305c87c5c9e}.xml
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{989ed9a5-a2a5-4d2c-871c-a5cf0c014b8c}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{989ed9a5-a2a5-4d2c-871c-a5cf0c014b8c}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{989ed9a5-a2a5-4d2c-871c-a5cf0c014b8c}.xml
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\Event\{992c1f09-c5e7-488e-ad1d-f09441f81478}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{992c1f09-c5e7-488e-ad1d-f09441f81478}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{992c1f09-c5e7-488e-ad1d-f09441f81478}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TheControlledFMOD\Metadata\Event\{9ce674e6-a963-4d76-92e0-8ff14ebba59f}.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\TheControlledFMOD\Metadata\Event\{9ce674e6-a963-4d76-92e0-8ff14ebba59f}.xml
     projectPath: TheControlledFMOD\Metadata\Event\{9ce674e6-a963-4d76-92e0-8ff14ebba59f}.xml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{c1693d39-6dc6-4a1b-9e9e-d26355fb2499}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{c1693d39-6dc6-4a1b-9e9e-d26355fb2499}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{c1693d39-6dc6-4a1b-9e9e-d26355fb2499}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TheControlledFMOD\Metadata\Event\{d8ef07a6-1e4e-452a-8b0b-251af15ee81a}.xml
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\TheControlledFMOD\Metadata\Event\{d8ef07a6-1e4e-452a-8b0b-251af15ee81a}.xml
     projectPath: TheControlledFMOD\Metadata\Event\{d8ef07a6-1e4e-452a-8b0b-251af15ee81a}.xml
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{e5ae1480-724c-4589-b4ea-aa0d4fef00bd}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{e5ae1480-724c-4589-b4ea-aa0d4fef00bd}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{e5ae1480-724c-4589-b4ea-aa0d4fef00bd}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Event\{e7192a8c-0647-4da0-8101-88f113d408c4}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{e7192a8c-0647-4da0-8101-88f113d408c4}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{e7192a8c-0647-4da0-8101-88f113d408c4}.xml
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\Event\{f43823e5-eefa-4071-9c7b-3c43ce51f9cb}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{f43823e5-eefa-4071-9c7b-3c43ce51f9cb}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{f43823e5-eefa-4071-9c7b-3c43ce51f9cb}.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TheControlledFMOD\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+    projectPath: TheControlledFMOD\Metadata\Event\{f531fbae-b3eb-4ac4-ae7a-5ea19c7751c1}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Group\{1cf8c674-3fdd-4317-a067-270780194333}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Group\{1cf8c674-3fdd-4317-a067-270780194333}.xml
+    projectPath: TheControlledFMOD\Metadata\Group\{1cf8c674-3fdd-4317-a067-270780194333}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Group\{39b6a8be-c9d3-4ecb-a476-7e5c7b71fcb9}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Group\{39b6a8be-c9d3-4ecb-a476-7e5c7b71fcb9}.xml
+    projectPath: TheControlledFMOD\Metadata\Group\{39b6a8be-c9d3-4ecb-a476-7e5c7b71fcb9}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TheControlledFMOD\Metadata\Group\{9d00be20-a580-47f1-b4d1-33aece4621ac}.xml
+    fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
+      Controlled\TheControlledFMOD\Metadata\Group\{9d00be20-a580-47f1-b4d1-33aece4621ac}.xml
+    projectPath: TheControlledFMOD\Metadata\Group\{9d00be20-a580-47f1-b4d1-33aece4621ac}.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: UserSettings\EditorUserSettings.asset
     fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
       Controlled\UserSettings\EditorUserSettings.asset

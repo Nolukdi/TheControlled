@@ -34,6 +34,9 @@ public class PlayerController : MonoBehaviour
     private EventInstance footsteps;
     private EventInstance punch1Miss;
     private EventInstance punch3Miss;
+    private EventInstance hit1Success;
+    private EventInstance hit2Success;
+    private EventInstance hit3Success;
     private PLAYBACK_STATE currentFootState;
 
 
@@ -52,6 +55,9 @@ public class PlayerController : MonoBehaviour
         footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/PlayerSounds/Footsteps");
         punch1Miss = FMODUnity.RuntimeManager.CreateInstance("event:/PlayerSounds/Punch1Miss");
         punch3Miss = FMODUnity.RuntimeManager.CreateInstance("event:/PlayerSounds/Punch3Miss");
+        hit1Success = FMODUnity.RuntimeManager.CreateInstance("event:/UI/HitSuccess1");
+        hit2Success = FMODUnity.RuntimeManager.CreateInstance("event:/UI/HitSuccess2");
+        hit3Success = FMODUnity.RuntimeManager.CreateInstance("event:/UI/HitSuccess3");
     }
 
     // Update is called once per frame
@@ -116,6 +122,8 @@ public class PlayerController : MonoBehaviour
                     anim.SetBool("firstPunch", true);
                     fighting = true;
                     punch1Miss.start();
+
+                    hit1Success.start();
                 }
 
                 //If the player presses shift
@@ -186,7 +194,10 @@ public class PlayerController : MonoBehaviour
                             combo = true;
                             timer = 0;
                             ePrompt.SetActive(false);
+
+                            //Play sounds (miss and success for quicktime)
                             punch1Miss.start();
+                            hit2Success.start();
                         }
                     }
 
@@ -208,6 +219,9 @@ public class PlayerController : MonoBehaviour
                             anim.SetBool("secondPunch", false);
                             wPrompt.SetActive(false);
                             ePrompt.SetActive(false);
+
+                            //Play sounds (miss and success for quicktime)
+                            hit3Success.start();
                             punch3Miss.start();
                         }
                     }

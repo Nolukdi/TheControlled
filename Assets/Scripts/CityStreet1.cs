@@ -11,6 +11,7 @@ public class CityStreet1 : MonoBehaviour
     private PLAYBACK_STATE currentHeadState;
     private EventInstance cityAmb;
     private PLAYBACK_STATE cityAmbState;
+    private EventInstance choice;
 
     //Chats
     public GameObject chat; //Chat bubble prefab
@@ -58,6 +59,7 @@ public class CityStreet1 : MonoBehaviour
         cityAmb.setParameterByName("TrainDistance", 0.0f);
         cityAmb.setParameterByName("ExtraChatter", 0.0f);
         cityAmb.start();
+        choice = FMODUnity.RuntimeManager.CreateInstance("event:/UI/Choice");
     }
 
     // Update is called once per frame
@@ -367,12 +369,16 @@ public class CityStreet1 : MonoBehaviour
                 //If the player picks the first chat bubble
                 if (Input.GetMouseButtonDown(0) && chatBubble.GetComponent<ChatBubble>().chosen)
                 {
+                    //Reset
                     Destroy(chatBubble);
                     Destroy(chatBubble2);
                     currentLetter = 0;
                     newText = "";
                     chat2[currentOpenChat].SetActive(false);
                     currentOpenChat++;
+
+                    //Play sound
+                    choice.start();
 
                     //Display next chat
                     currentText = DisplayChat(currentOpenChat, chat2);
@@ -398,6 +404,9 @@ public class CityStreet1 : MonoBehaviour
 
                     //Display next chat
                     currentText = DisplayChat(currentOpenChat, chat2);
+
+                    //Play sound
+                    choice.start();
 
                     choiceNum++;
 

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 822
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: GitHub
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 772
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 504, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 128
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,15 +68,15 @@ MonoBehaviour:
     y: 0
     width: 476
     height: 772
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 18}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 497
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -152,7 +152,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 822
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -225,10 +225,10 @@ MonoBehaviour:
     y: 0
     width: 1060
     height: 772
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 58
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,10 +250,10 @@ MonoBehaviour:
     y: 0
     width: 1060
     height: 497
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 59
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,19 +329,19 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1044.4
+    x: 1060
     y: 72
-    width: 490.59998
+    width: 475
     height: 751
   m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
+  progressMessageClearTime: 440.3450194
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -426,673 +426,26 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 152550245aa3b4f44a4bc20e5f67eb11
-        - 6c694e70e43d5e14c9f5200ae23ad3f1
-        - 5628f3cb31d95db47b1325664103b10a
-        - 8ad0ec0a900e1e242b71b8bc944bdc13
-        - a8e16b6e87e1bfa4084f74467ab19c5d
-        - 6e30cdd24e9a61b4fa15bcb03a3ca514
-        - 5e3dd1012b114ca419eb2764f2827e30
-        - 49a9a4e2713e4ae489c4f3c004fa7474
-        - 51aa11af082cde84292d313259547c09
-        - 230540cd7f93dbb4aa3fd7a2905de4c3
-        - d3c95db5b8ca26a4da7618f46c238782
-        - 4031e8931c51fb443897686f5efce9e9
-        - 3e6df1670824b9d4aab1fa3c3b7e353e
-        - a9cfbad8b8ced4e468e0810f2ceffc8f
-        - 2376ae8848d424a4abb1d0b4e3138cf7
-        - 00000000000000003000000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Images
-          label: Images
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Images\Calla.png
-          label: Calla.png
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Images\Calla.png
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Images\Calla.png
-            projectPath: Assets\Images\Calla.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Images\Calla.psd
-          label: Calla.psd
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Images\Calla.psd
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Images\Calla.psd
-            projectPath: Assets\Images\Calla.psd
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Chat.prefab
-          label: Chat.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Chat.prefab
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Prefabs\Chat.prefab
-            projectPath: Assets\Prefabs\Chat.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Thought.prefab
-          label: Thought.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Thought.prefab
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Prefabs\Thought.prefab
-            projectPath: Assets\Prefabs\Thought.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\CityStreet1.unity
-          label: CityStreet1.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\CityStreet1.unity
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scenes\CityStreet1.unity
-            projectPath: Assets\Scenes\CityStreet1.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Bedroom.cs
-          label: Bedroom.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Bedroom.cs
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scripts\Bedroom.cs
-            projectPath: Assets\Scripts\Bedroom.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Calla.cs
-          label: Calla.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Calla.cs
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scripts\Calla.cs
-            projectPath: Assets\Scripts\Calla.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\ChatBubble.cs
-          label: ChatBubble.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\ChatBubble.cs
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scripts\ChatBubble.cs
-            projectPath: Assets\Scripts\ChatBubble.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\CityStreet1.cs
-          label: CityStreet1.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\CityStreet1.cs
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scripts\CityStreet1.cs
-            projectPath: Assets\Scripts\CityStreet1.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Icons.cs
-          label: Icons.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Icons.cs
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scripts\Icons.cs
-            projectPath: Assets\Scripts\Icons.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\PlayerController.cs
-          label: PlayerController.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\PlayerController.cs
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\Assets\Scripts\PlayerController.cs
-            projectPath: Assets\Scripts\PlayerController.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-              Controlled\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
         keys:
-        - .vs
-        - .vs\The Controlled
-        - .vs\The Controlled\v16
-        - .vs\The Controlled\v16\Server
-        - .vs\The Controlled\v16\Server\sqlite3
-        - Assets
-        - Assets\Images
-        - Assets\Prefabs
-        - Assets\Scenes
-        - Assets\Scripts
         - Library
-        - Library\Artifacts
-        - Library\Artifacts\09
-        - Library\Artifacts\1b
-        - Library\Artifacts\1d
-        - Library\Artifacts\78
-        - Library\Artifacts\94
         - Library\gfu
         - Library\gfu\cache
-        - Library\ScriptAssemblies
-        - Library\StateCache
-        - Library\StateCache\MainStageHierarchy
-        - Library\StateCache\MainStageHierarchy\fe
-        - Library\StateCache\SceneView
-        - Library\StateCache\SceneView\e5
-        - Logs
-        - ProjectSettings
         values:
-        - path: .vs
-          label: .vs
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .vs\The Controlled
-          label: The Controlled
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .vs\The Controlled\v16
-          label: v16
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .vs\The Controlled\v16\Server
-          label: Server
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .vs\The Controlled\v16\Server\sqlite3
-          label: sqlite3
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Images
-          label: Images
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Library
           label: Library
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts
-          label: Artifacts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\09
-          label: 09
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\1b
-          label: 1b
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\1d
-          label: 1d
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\78
-          label: 78
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\Artifacts\94
-          label: 94
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1144,150 +497,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Library\ScriptAssemblies
-          label: ScriptAssemblies
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache
-          label: StateCache
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache\MainStageHierarchy
-          label: MainStageHierarchy
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache\MainStageHierarchy\fe
-          label: fe
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache\SceneView
-          label: SceneView
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Library\StateCache\SceneView\e5
-          label: e5
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Logs
-          label: Logs
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1316,547 +525,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vs
-        label: .vs
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\The Controlled
-        label: The Controlled
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\The Controlled\v16
-        label: v16
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\The Controlled\v16\.suo
-        label: .suo
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\The Controlled\v16\.suo
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\.vs\The Controlled\v16\.suo
-          projectPath: .vs\The Controlled\v16\.suo
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: .vs\The Controlled\v16\Server
-        label: Server
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\The Controlled\v16\Server\sqlite3
-        label: sqlite3
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide
-        label: storage.ide
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\The Controlled\v16\Server\sqlite3\storage.ide
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide
-          projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-        label: storage.ide-shm
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-          projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-        label: storage.ide-wal
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-          projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assembly-CSharp.csproj
-        label: Assembly-CSharp.csproj
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assembly-CSharp.csproj
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assembly-CSharp.csproj
-          projectPath: Assembly-CSharp.csproj
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Images
-        label: Images
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Images\Calla.png
-        label: Calla.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Images\Calla.png
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Images\Calla.png
-          projectPath: Assets\Images\Calla.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Images\Calla.png.meta
-        label: Calla.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Images\Calla.png.meta
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Images\Calla.png.meta
-          projectPath: Assets\Images\Calla.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Images\Calla.psd
-        label: Calla.psd
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Images\Calla.psd
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Images\Calla.psd
-          projectPath: Assets\Images\Calla.psd
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Images\Calla.psd.meta
-        label: Calla.psd.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Images\Calla.psd.meta
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Images\Calla.psd.meta
-          projectPath: Assets\Images\Calla.psd.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs
-        label: Prefabs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\Chat.prefab
-        label: Chat.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Chat.prefab
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Prefabs\Chat.prefab
-          projectPath: Assets\Prefabs\Chat.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Thought.prefab
-        label: Thought.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Thought.prefab
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Prefabs\Thought.prefab
-          projectPath: Assets\Prefabs\Thought.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\CityStreet1.unity
-        label: CityStreet1.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\CityStreet1.unity
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scenes\CityStreet1.unity
-          projectPath: Assets\Scenes\CityStreet1.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\Bedroom.cs
-        label: Bedroom.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Bedroom.cs
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\Bedroom.cs
-          projectPath: Assets\Scripts\Bedroom.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Calla.cs
-        label: Calla.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Calla.cs
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\Calla.cs
-          projectPath: Assets\Scripts\Calla.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Calla.cs.meta
-        label: Calla.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Calla.cs.meta
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\Calla.cs.meta
-          projectPath: Assets\Scripts\Calla.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\ChatBubble.cs
-        label: ChatBubble.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\ChatBubble.cs
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\ChatBubble.cs
-          projectPath: Assets\Scripts\ChatBubble.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\CityStreet1.cs
-        label: CityStreet1.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\CityStreet1.cs
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\CityStreet1.cs
-          projectPath: Assets\Scripts\CityStreet1.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Icons.cs
-        label: Icons.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Icons.cs
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\Icons.cs
-          projectPath: Assets\Scripts\Icons.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\PlayerController.cs
-        label: PlayerController.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\PlayerController.cs
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Assets\Scripts\PlayerController.cs
-          projectPath: Assets\Scripts\PlayerController.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library
         label: Library
         level: 0
@@ -1875,266 +543,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Library\ArtifactDB
-        label: ArtifactDB
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ArtifactDB
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\ArtifactDB
-          projectPath: Library\ArtifactDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\Artifacts
-        label: Artifacts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\09
-        label: 09
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-        label: 091f01e24e871002e8dd99c18257c8d0
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-          projectPath: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\1b
-        label: 1b
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-        label: 1b1b4ff268e9462d5b91ad49601803e5
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-          projectPath: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\1d
-        label: 1d
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-        label: 1d24e53204af1d78ff448f79556ed655
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-          projectPath: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\78
-        label: 78
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-        label: 78ccc799fab5b0a3c7a6f78b7168f3f0
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-          projectPath: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\Artifacts\94
-        label: 94
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-        label: 942d23639da5c14466b3a1196ec4cc2b
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-          projectPath: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Library\CurrentLayout-default.dwlt
-        label: CurrentLayout-default.dwlt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\CurrentLayout-default.dwlt
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\CurrentLayout-default.dwlt
-          projectPath: Library\CurrentLayout-default.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\EditorInstance.json
-        label: EditorInstance.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\EditorInstance.json
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\EditorInstance.json
-          projectPath: Library\EditorInstance.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library\gfu
         label: gfu
         level: 1
@@ -2209,25 +617,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\gfu\cache\gitlog.yaml
-        label: gitlog.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gitlog.yaml
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\gfu\cache\gitlog.yaml
-          projectPath: Library\gfu\cache\gitlog.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library\gfu\cache\gitstatusentries.yaml
         label: gitstatusentries.yaml
         level: 3
@@ -2266,138 +655,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Library\gfu\cache\repoinfo.yaml
-        label: repoinfo.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\repoinfo.yaml
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\gfu\cache\repoinfo.yaml
-          projectPath: Library\gfu\cache\repoinfo.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\InspectorExpandedItems.asset
-        label: InspectorExpandedItems.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\InspectorExpandedItems.asset
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\InspectorExpandedItems.asset
-          projectPath: Library\InspectorExpandedItems.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\LastSceneManagerSetup.txt
-        label: LastSceneManagerSetup.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\LastSceneManagerSetup.txt
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\LastSceneManagerSetup.txt
-          projectPath: Library\LastSceneManagerSetup.txt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\SceneVisibilityState.asset
-        label: SceneVisibilityState.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\SceneVisibilityState.asset
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\SceneVisibilityState.asset
-          projectPath: Library\SceneVisibilityState.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\ScriptAssemblies
-        label: ScriptAssemblies
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.dll
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\ScriptAssemblies\Assembly-CSharp.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-        label: Assembly-CSharp.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\ScriptAssemblies\Assembly-CSharp.pdb
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Library\SourceAssetDB
         label: SourceAssetDB
         level: 1
@@ -2414,246 +671,6 @@ MonoBehaviour:
           fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
             Controlled\Library\SourceAssetDB
           projectPath: Library\SourceAssetDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\StateCache
-        label: StateCache
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\MainStageHierarchy
-        label: MainStageHierarchy
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\MainStageHierarchy\fe
-        label: fe
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-        label: fe204f6dcdf137210543f9b0b0945299.json
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-          projectPath: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Library\StateCache\SceneView
-        label: SceneView
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\SceneView\e5
-        label: e5
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-        label: e5ae61d3534de06921ee6a9ac2daba5b.json
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-          projectPath: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Logs
-        label: Logs
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Logs\ApiUpdaterCheck.txt
-        label: ApiUpdaterCheck.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Logs\ApiUpdaterCheck.txt
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Logs\ApiUpdaterCheck.txt
-          projectPath: Logs\ApiUpdaterCheck.txt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Logs\AssetImportWorker0.log
-        label: AssetImportWorker0.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Logs\AssetImportWorker0.log
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Logs\AssetImportWorker0.log
-          projectPath: Logs\AssetImportWorker0.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Logs\AssetImportWorker0-prev.log
-        label: AssetImportWorker0-prev.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Logs\AssetImportWorker0-prev.log
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\Logs\AssetImportWorker0-prev.log
-          projectPath: Logs\AssetImportWorker0-prev.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-            Controlled\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2677,195 +694,6 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: .vs\The Controlled\v16\.suo
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\.vs\The Controlled\v16\.suo
-      projectPath: .vs\The Controlled\v16\.suo
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide
-      projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-      projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-shm
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\.vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-      projectPath: .vs\The Controlled\v16\Server\sqlite3\storage.ide-wal
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assembly-CSharp.csproj
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assembly-CSharp.csproj
-      projectPath: Assembly-CSharp.csproj
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Images\Calla.png
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Images\Calla.png
-      projectPath: Assets\Images\Calla.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Images\Calla.png.meta
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Images\Calla.png.meta
-      projectPath: Assets\Images\Calla.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Images\Calla.psd
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Images\Calla.psd
-      projectPath: Assets\Images\Calla.psd
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Images\Calla.psd.meta
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Images\Calla.psd.meta
-      projectPath: Assets\Images\Calla.psd.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Chat.prefab
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Prefabs\Chat.prefab
-      projectPath: Assets\Prefabs\Chat.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Thought.prefab
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Prefabs\Thought.prefab
-      projectPath: Assets\Prefabs\Thought.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scenes\CityStreet1.unity
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scenes\CityStreet1.unity
-      projectPath: Assets\Scenes\CityStreet1.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Bedroom.cs
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\Bedroom.cs
-      projectPath: Assets\Scripts\Bedroom.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Calla.cs
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\Calla.cs
-      projectPath: Assets\Scripts\Calla.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Calla.cs.meta
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\Calla.cs.meta
-      projectPath: Assets\Scripts\Calla.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\ChatBubble.cs
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\ChatBubble.cs
-      projectPath: Assets\Scripts\ChatBubble.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\CityStreet1.cs
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\CityStreet1.cs
-      projectPath: Assets\Scripts\CityStreet1.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Icons.cs
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\Icons.cs
-      projectPath: Assets\Scripts\Icons.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\PlayerController.cs
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Assets\Scripts\PlayerController.cs
-      projectPath: Assets\Scripts\PlayerController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\ArtifactDB
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\ArtifactDB
-      projectPath: Library\ArtifactDB
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-      projectPath: Library\Artifacts\09\091f01e24e871002e8dd99c18257c8d0
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-      projectPath: Library\Artifacts\1b\1b1b4ff268e9462d5b91ad49601803e5
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-      projectPath: Library\Artifacts\1d\1d24e53204af1d78ff448f79556ed655
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-      projectPath: Library\Artifacts\78\78ccc799fab5b0a3c7a6f78b7168f3f0
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-      projectPath: Library\Artifacts\94\942d23639da5c14466b3a1196ec4cc2b
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Library\CurrentLayout-default.dwlt
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\CurrentLayout-default.dwlt
-      projectPath: Library\CurrentLayout-default.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\EditorInstance.json
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\EditorInstance.json
-      projectPath: Library\EditorInstance.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: Library\gfu\cache\branches.yaml
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
         Controlled\Library\gfu\cache\branches.yaml
@@ -2877,13 +705,6 @@ MonoBehaviour:
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
         Controlled\Library\gfu\cache\gitlocks.yaml
       projectPath: Library\gfu\cache\gitlocks.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\gfu\cache\gitlog.yaml
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\gfu\cache\gitlog.yaml
-      projectPath: Library\gfu\cache\gitlog.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -2901,48 +722,6 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\gfu\cache\repoinfo.yaml
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\gfu\cache\repoinfo.yaml
-      projectPath: Library\gfu\cache\repoinfo.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\InspectorExpandedItems.asset
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\InspectorExpandedItems.asset
-      projectPath: Library\InspectorExpandedItems.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\LastSceneManagerSetup.txt
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\LastSceneManagerSetup.txt
-      projectPath: Library\LastSceneManagerSetup.txt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\SceneVisibilityState.asset
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\SceneVisibilityState.asset
-      projectPath: Library\SceneVisibilityState.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\ScriptAssemblies\Assembly-CSharp.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\ScriptAssemblies\Assembly-CSharp.pdb
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: Library\SourceAssetDB
       fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
         Controlled\Library\SourceAssetDB
@@ -2950,57 +729,15 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-      projectPath: Library\StateCache\MainStageHierarchy\fe\fe204f6dcdf137210543f9b0b0945299.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-      projectPath: Library\StateCache\SceneView\e5\e5ae61d3534de06921ee6a9ac2daba5b.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Logs\ApiUpdaterCheck.txt
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Logs\ApiUpdaterCheck.txt
-      projectPath: Logs\ApiUpdaterCheck.txt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Logs\AssetImportWorker0.log
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Logs\AssetImportWorker0.log
-      projectPath: Logs\AssetImportWorker0.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Logs\AssetImportWorker0-prev.log
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\Logs\AssetImportWorker0-prev.log
-      projectPath: Logs\AssetImportWorker0-prev.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\aweso\Desktop\Other\Ourbit\The Controlled\The Controlled\The
-        Controlled\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 45 changed files
+    changedFilesText: 5 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2021-04-29T19:12:40.713-04:00
+      updatedTimeString: 2021-04-29T20:05:25.613-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-04-29T19:57:22.815-04:00
+      updatedTimeString: 2021-04-29T19:59:51.186-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2021-04-29T19:55:36.715-04:00
+      updatedTimeString: 2021-04-29T19:58:34.802-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3322,13 +1059,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2021-04-20T19:48:51.259-04:00
+    updatedTimeString: 2021-04-29T20:05:25.613-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2021-04-20T18:45:00.877-04:00
+    updatedTimeString: 2021-04-29T20:05:23.749-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2021-04-20T20:01:49.884-04:00
+    updatedTimeString: 2021-04-29T19:59:51.186-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3346,8 +1083,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 0.5
+  repositoryProgressMessage: Reading locks...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -3368,7 +1105,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animation
-    m_Image: {fileID: -8967370667835289719, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -3397,7 +1134,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -6973158847631862895, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -3614,7 +1351,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -3640,7 +1377,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -3677,9 +1414,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 58}
-    m_SelectedIDs: 3a440000
-    m_LastClickedID: 17466
-    m_ExpandedIDs: 000000000c44000000ca9a3b
+    m_SelectedIDs: 4e450000
+    m_LastClickedID: 17742
+    m_ExpandedIDs: 000000002045000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3707,7 +1444,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c440000
+    m_ExpandedIDs: 0000000020450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3734,7 +1471,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000c7f0000409b00003c3b00004255000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3817,7 +1554,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -3832,7 +1569,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1ec1ffff34c1ffff08c2ffff12c3ffffeac3ffffeec3ffff10c6ffff26c6ffff28c6ffff26c7ffffeec7fffff2c7ffff4ac8ffff60c8ffff62c8ffff60c9ffff28caffff2ccaffffaacdffffc0cdffffc2cdffffc0ceffff88cfffff8ccffffff4cfffff0ad0ffff0cd0ffff0ad1ffffd2d1ffffd6d1ffff90d5ffffa6d5ffff7ad6ffff84d7ffff5cd8ffff60d8ffffeae2ffff98e6ffff80eaffff82eaffff8aeaffff46eeffff76f4ffff80faffff4efbffff60450000446b00009c6b0000b86b0000c26b0000da7c0000187d0000f87d00001c7e0000207e0000c0850000f48f000012910000369100001a9a00004ea400006ca5000090a50000
+      m_ExpandedIDs: 4efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3872,7 +1609,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -3944,7 +1681,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.06562519, y: -0.039207086, z: 0.0024078952, w: 0.99717695}
     speed: 2
-    m_Value: {x: 0.065618254, y: -0.03920294, z: 0.0024076407, w: 0.9970715}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
     m_Target: 5.6266866
     speed: 2
@@ -3989,7 +1726,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -4020,10 +1757,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -512
-    m_HBaseRangeMax: 512
-    m_VBaseRangeMin: -288
-    m_VBaseRangeMax: 288
+    m_HBaseRangeMin: -1280
+    m_HBaseRangeMax: 1280
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -4040,24 +1777,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 705
-      height: 455
-    m_Scale: {x: 0.68847656, y: 0.68847656}
-    m_Translation: {x: 352.5, y: 227.50002}
+      height: 476
+    m_Scale: {x: 0.27539062, y: 0.27539062}
+    m_Translation: {x: 352.5, y: 238}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -512
-      y: -330.43973
-      width: 1024
-      height: 660.87946
+      x: -1280
+      y: -864.2269
+      width: 2560
+      height: 1728.4539
     m_MinimalGUI: 1
-  m_defaultScale: 0.68847656
-  m_LastWindowPixelSize: {x: 1762.5, y: 1190}
+  m_defaultScale: 0.27539062
+  m_LastWindowPixelSize: {x: 705, y: 476}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -4079,7 +1816,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:

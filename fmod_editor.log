@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002B0B5D70938 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000025E16120798 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,8 +17,41 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          :  (000002B01A5A1018)
-[LOG] SoundI::release                          :     Footsteps (000002B0E15A57F8)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025E1B3F2F08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025E1B3F2F08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025E1B3F24E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025E1B3F24E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025E1B3F2698
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025E1B3F2698
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SoundI::release                          : CityChatterLoop (0000025E1B29D648)
+[LOG] SoundI::release                          :     CityChatterLoop (0000025DAA4FBDD8)
+[LOG] SoundI::release                          :     CityChatterLoop (0000025E1B3F2698)
+[LOG] SoundI::release                          : CityStreetLoop (0000025E1B4AC918)
+[LOG] SoundI::release                          :     CityStreetLoop (0000025DAAB81528)
+[LOG] SoundI::release                          :     CityStreetLoop (0000025E1B3F2F08)
+[LOG] SoundI::release                          : Helping Head (0000025F3C811168)
+[LOG] SoundI::release                          :     Helping Head (0000025DAAB82088)
+[LOG] SoundI::release                          :     Helping Head (0000025E1B3F24E8)
+[LOG] SoundI::release                          :  (0000025E67AB4078)
+[LOG] SoundI::release                          :     MenuClick (0000025DAAB823C8)
+[LOG] SoundI::release                          :  (0000025E67AB62F8)
+[LOG] SoundI::release                          :     Punch1Success (0000025DAAB811E8)
+[LOG] SoundI::release                          :  (0000025E67AB7888)
+[LOG] SoundI::release                          :     MenuSelect (0000025DAAB82F28)
+[LOG] SoundI::release                          :  (0000025E67AB5D38)
+[LOG] SoundI::release                          :     IconAppear (0000025DAAB81388)
+[LOG] SoundI::release                          :  (0000025E67AB68B8)
+[LOG] SoundI::release                          :     Punch3Success (0000025DAAB81A08)
+[LOG] SoundI::release                          :  (0000025E67AB5778)
+[LOG] SoundI::release                          :     TrainPass (0000025DAAB82D88)
+[LOG] SoundI::release                          :  (0000025E67AB7158)
+[LOG] SoundI::release                          :     TrainHorn (0000025DAAB82228)
+[LOG] SoundI::release                          :  (0000025E67AB5BC8)
+[LOG] SoundI::release                          :     Footsteps (0000025DAAB82BE8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -32,6 +65,9 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
@@ -47,3 +83,5 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
